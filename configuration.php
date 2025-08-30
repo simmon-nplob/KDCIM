@@ -1752,8 +1752,8 @@ echo '<div class="main">
 	<div id="configtabs">
 		<ul>
 			<li><a href="#general">',__("General"),'</a></li>
-			<li><a href="#workflow">',__("Workflow/Style"),'</a></li>
-			<li><a href="#privacy">',__("Privacy/Email"),'</a></li>
+			<li><a href="#workflow">',__("작업흐름/유형"),'</a></li>
+			<li><a href="#privacy">',__("개인정보/전자우편"),'</a></li>
 			<li><a href="#reporting">',__("Reporting"),'</a></li>
 			<li><a href="#tt">',__("ToolTips"),'</a></li>
 			<li><a href="#cc">',__("Cabling"),'</a></li>
