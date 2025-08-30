@@ -109,7 +109,7 @@
 	$locale=explode(".",$locale);
 	$locale=$locale[0];
 	echo '	<div class="langselect hide">
-		<label for="language">Language</label>
+		<label for="language">언어</label>
 		<select name="language" id="language" current="'.$locale.'">';
 		foreach($lang as $cc => $translatedname){
 			// This is for later. For now just display list
