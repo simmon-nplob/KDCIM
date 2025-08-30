@@ -327,7 +327,7 @@ echo '
 	</div>
 </div>
 <div>
-	<div><label for="MapDataCenterID">',__("Data Center (for Mapping)"),'</label></div>
+	<div><label for="MapDataCenterID">',__("데이타 센타 (대응용)"),'</label></div>
 	<div>
 		<select name="MapDataCenterID" id="MapDataCenterID">
 			<option value=0>Do not map</option>';
