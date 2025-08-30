@@ -634,7 +634,7 @@ msgstr "무게"
 
 #: openDCIM/cabnavigator.php:274
 msgid "Computed Watts"
-msgstr "설계 전력(와트)"
+msgstr "부하 전력(와트)"
 
 #: openDCIM/cabnavigator.php:283
 msgid "Measured Watts"
@@ -1870,7 +1870,7 @@ msgstr "데이타 센타"
 #: openDCIM/container_stats.php:87 openDCIM/dc_dashboard.php:117
 #: openDCIM/dc_stats.php:229 openDCIM/zone_stats.php:230
 msgid "Computed Wattage"
-msgstr "설계 전력"
+msgstr "부하 전력"
 
 #: openDCIM/dc_dashboard.php:118 openDCIM/dc_dashboard.php:122
 #: openDCIM/dc_dashboard.php:138 openDCIM/report_cost.php:469
@@ -1961,12 +1961,12 @@ msgstr "전력"
 #: openDCIM/dc_dashboard.php:129 openDCIM/dc_stats.php:241
 #: openDCIM/zone_stats.php:238
 msgid "BTU Computation from Computed Watts"
-msgstr "설계 전력에서 BTU 설계"
+msgstr "부하 전력에서 BTU 설계"
 
 #: openDCIM/dc_dashboard.php:141 openDCIM/dc_stats.php:257
 #: openDCIM/zone_stats.php:254
 msgid "Minimum Cooling Tonnage (Based on Computed Watts)"
-msgstr "최소 냉각 톤 (설계 전역에서 기반된)"
+msgstr "최소 냉각 톤 (부하 전력 기반)"
 
 #: openDCIM/dc_stats.php:166
 msgid "openDCIM Data Center Information Management"
