@@ -4,7 +4,7 @@
 	require_once( "db.inc.php" );
 	require_once( "facilities.inc.php" );
 
-	$subheader=__("Data Center Configuration");
+	$subheader=__("데이타 센타 환경구성");
 	$timestamp=time();
 	$salt=md5('unique_salt' . $timestamp);
 
@@ -2447,7 +2447,7 @@ echo '<div class="main">
 					<div><input type="text" name="dcavalue[]"></div>
 				</div>
 			</div>
-			<h3>',__("Device Status"),'</h3>
+			<h3>',__("장치 상태"),'</h3>
 			<div class="table" id="devstatus">
 				<div>
 					<div></div>
