@@ -3066,7 +3066,7 @@ msgstr "당신은 이 지도에서 보관함을 위치하도록 시도하기 전
 
 #: openDCIM/mapmaker.php:212
 msgid "Please check that &quot;%s&quot; is actually a file."
-msgstr "&quot를 확인하세요;;%s&quot; 는 실제 파일입니다."
+msgstr "확인하세요 &quot;%s&quot; 실제 파일입니다."
 
 #: openDCIM/mapmaker.php:213
 msgid "Please check the permissions on %s and make sure it is readable."
@@ -3812,7 +3812,7 @@ msgstr "이 파일은 기밀이고 소유자의 허가 없이는 사용 될 수 
 
 #: openDCIM/report_asset_Excel.php:211
 msgid "Generate by openDCIM"
-msgstr "openDCIM에서 발생"
+msgstr "openDCIM에서 작성"
 
 #: openDCIM/report_asset_Excel.php:215
 msgid "Summary Statistics"
@@ -4070,7 +4070,7 @@ msgstr "데이타 센타에서 출력하는 보관함 선택"
 #: openDCIM/report_project_outage_simulator.php:69
 #: openDCIM/report_xml_CFD.php:69
 msgid "Generate"
-msgstr "발생"
+msgstr "작성"
 
 #: openDCIM/report_cabinets.php:105
 msgid "Cabinet ID"
@@ -4960,7 +4960,7 @@ msgstr "전자우편 주소"
 
 #: openDCIM/usermgr.php:274
 msgid "Generate New Key"
-msgstr "신규 키 발생"
+msgstr "신규 키 만들기"
 
 #: openDCIM/usermgr.php:278
 msgid "Rights"
@@ -5714,7 +5714,7 @@ msgstr "SP x509 인증서"
 
 #: openDCIM/configuration.php:2620
 msgid "Generate/Renew Certificate"
-msgstr "생성/변경 인증서"
+msgstr "작성/변경 인증서"
 
 #: openDCIM/configuration.php:2629
 msgid "IdP entityId"
@@ -5818,11 +5818,11 @@ msgstr "행으로 되돌아가기"
 
 #: openDCIM/api/v1/deleteRoutes.php:40
 msgid "Failed to delete cabinet with CabinetID"
-msgstr "CabinetID인 보관함 삭제를 실패함"
+msgstr "보관함ID인 보관함 삭제를 실패함"
 
 #: openDCIM/api/v1/deleteRoutes.php:222
 msgid "Error removing sensor readings for SensorID "
-msgstr "SensorID용 센서 읽기 제거 중 오류 "
+msgstr "센서ID용 센서 읽기 제거 중 오류 "
 
 #: openDCIM/api/v1/deleteRoutes.php:248
 msgid "Error removing pdu stats for PDUID "
