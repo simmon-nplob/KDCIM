@@ -2609,7 +2609,7 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="saml">
-			<h3>',__("SAML Authentication Configuration"),'</h3>
+			<h3>',__("SAML 인증 구성"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="SAMLBaseURL">',__("Base URL"),'</label></div>
@@ -2649,7 +2649,7 @@ echo '<div class="main">
 				$validFrom = date('Y-m-d H:i:s', $data['validFrom_time_t']);
 				$validTo = date('Y-m-d H:i:s', $data['validTo_time_t']);
 			} else {
-				$validTo = "No Certificate";
+				$validTo = "인증서 없음";
 			}	
 
 			echo '<div>
