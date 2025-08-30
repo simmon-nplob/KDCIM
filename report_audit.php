@@ -180,10 +180,10 @@ $(function(){
 <form method="post" id="auditform">
 <div class="table">
 	<div>
-		<div><label for="datacenterid">Data Center:</label></div>
+		<div><label for="datacenterid">데이타 센타:</label></div>
 		<div>
 			<select id="datacenterid" name="datacenterid">
-				<option value="">Select data center</option>
+				<option value="">데이타 센타 선택</option>
 <?php
 	foreach($dcList as $dc){
 		print "				<option value=\"$dc->DataCenterID\">$dc->Name</option>\n";
@@ -193,11 +193,11 @@ $(function(){
 		</div>
 	</div>
 	<div>
-		<div><label for="startdate">Start Date:</label></div>
+		<div><label for="startdate">시작일:</label></div>
 		<div><input type="text" id="startdate" name="startdate"></div>
 	</div>
 	<div>
-		<div><label for="enddate">End Date:</label></div>
+		<div><label for="enddate">종료일:</label></div>
 		<div><input type="text" id="enddate" name="enddate"></div>
 	</div>
 	<div class="caption">
