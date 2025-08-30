@@ -1111,9 +1111,9 @@ function bindmaptooltips(){
 function cabinetimagecontrols(){
 	var controlrow=$('<tr>').append($('<td>').attr({'colspan':'4','id':'cabinetimagecontrols'}).css('text-align','left')).addClass('noprint');
 	controlrow.td=controlrow.find('td');
-	var imgbtn=$('<button>').attr('type','button').css({'line-height': '1em', 'height': '1.5em'}).data('show',false).text('Images');
-	var lblbtn=imgbtn.clone().text('Labels');
-	var posbtn=imgbtn.clone().text('Position');
+	var imgbtn=$('<button>').attr('type','button').css({'line-height': '1em', 'height': '1.5em'}).data('show',false).text('사진');
+	var lblbtn=imgbtn.clone().text('이름');
+	var posbtn=imgbtn.clone().text('위치');
 	controlrow.td.append(imgbtn);
 	controlrow.td.append(lblbtn);
 	controlrow.td.append(posbtn);
