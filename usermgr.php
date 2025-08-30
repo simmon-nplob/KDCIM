@@ -280,7 +280,7 @@ echo '	</select>&nbsp;&nbsp;<span title="',__("This user is the primary contact 
    <div><input type="text" name="Phone2" id="Phone2" value="',$userRights->Phone2,'"></div>
 </div>
 <div>
-   <div><label for="Country">',__("Country"),'</label></div>
+   <div><label for="Country">',__("국가"),'</label></div>
    <div>
    	<select name="countryCode" id="countryCode">';
    	foreach($countryList as $countryRow ) {
