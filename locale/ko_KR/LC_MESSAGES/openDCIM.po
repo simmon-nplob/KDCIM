@@ -4736,7 +4736,7 @@ msgstr "뒷면 보기"
 #: openDCIM/power_panel.php:434 openDCIM/rowview.php:180
 #: openDCIM/zone_stats.php:340
 msgid "Return to"
-msgstr "돌아가기"
+msgstr "로 돌아가기"
 
 #: openDCIM/search_export.php:5
 msgid "Data Center View/Export"
@@ -5555,11 +5555,11 @@ msgstr "openDcIM의 장치와 일치하는 데 사용되는 키 부분의 유형
 
 #: openDCIM/cabnavigator.php:655
 msgid "Return to Zone %s"
-msgstr "지역 %s로 되돌아가기"
+msgstr "지역 %s로 돌아가기"
 
 #: openDCIM/cabnavigator.php:661
 msgid "Return to Row %s"
-msgstr "행 %s로 되돌아가기"
+msgstr "행 %s로 돌아가기"
 
 #: openDCIM/cdu_templates.php:146 openDCIM/device_templates.php:991
 msgid "Power Outlet Name"
@@ -5814,7 +5814,7 @@ msgstr "사용자 정의 검색"
 
 #: openDCIM/zone_stats.php:336
 msgid "Return to Row"
-msgstr "행으로 되돌아가기"
+msgstr "행으로 돌아가기"
 
 #: openDCIM/api/v1/deleteRoutes.php:40
 msgid "Failed to delete cabinet with CabinetID"
