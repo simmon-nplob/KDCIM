@@ -337,7 +337,7 @@ foreach($cabrowlist as $cabRow){
 }
 
 if($dc->DataCenterID>0){
-	print " <a href=\"dc_stats.php?dc=$dc->DataCenterID\">[ ".__("Return to")." $dc->Name ]</a>";
+	print " <a href=\"dc_stats.php?dc=$dc->DataCenterID\">[$dc->Name ".__("Return to")." ]</a>";
 }
 ?>
 
