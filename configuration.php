@@ -2462,7 +2462,7 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="mappers">
-			<h3>',__("Authentication Attribute Mapping"),'</h3>
+			<h3>',__("권한 속성 대응하기"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="AttrFirstName">',__("FirstName"),'</label></div>
@@ -2489,7 +2489,7 @@ echo '<div class="main">
 					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrCountry"],'" name="AttrCountry" value="',$config->ParameterArray["AttrCountry"],'"></div>
 				</div>
 			</div>
-			<h3>',__("Username Transformations"),'</h3>
+			<h3>',__("사용자이름 변환"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="SAMLaccountPrefix">',__("Remove Account Prefix"),'</label></div>
@@ -2549,10 +2549,10 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="ldap">
-			<h3>',__("OIDC Connection Configuration"),'</h3>
+			<h3>',__("OIDC 연결 구성"),'</h3>
 			<div class="table">
 				<div>
-					<div><label for="OIDCEndpoint">',__("OIDC Authorization Endpoint"),'</label></div>
+					<div><label for="OIDCEndpoint">',__("OIDC 권한 종료점"),'</label></div>
 					<div><input type="text" size=50 defaultvalue="',$config->defaults["OIDCEndpoint"],'" name="OIDCEndpoint" value="',$config->ParameterArray["OIDCEndpoint"],'"></div>
 				</div>
 				<div>
