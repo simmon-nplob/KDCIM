@@ -27,7 +27,7 @@
 	$dbport = getenv('OPENDCIM_DB_PORT') ? getenv('OPENDCIM_DB_PORT'):'3306';
 	$initialAdminUser = getenv('OPENDCIM_ADMIN_USER') ? getenv('OPENDCIM_ADMIN_USER'):'dcim';
 
-	$locale = "en_US";
+	$locale = "ko_KR";
 	$codeset = "UTF-8";
 
 	$pdo_options=array(
