@@ -2147,7 +2147,7 @@ echo '<div class="main">
 					</div>
 				</div>
 			</div>
-			<h3>',__("SMTP Options"),'</h3>
+			<h3>',__("SMTP 옵션"),'</h3>
 		    <fieldset id="smtpblock">
 			<div class="table">
 				<div>
