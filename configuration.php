@@ -1858,8 +1858,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="RequireDefinedUser">',__("Block Undefined Users"),'</label></div>
 					<div><select id="RequireDefinedUser" name="RequireDefinedUser" defaultvalue="',$config->defaults["RequireDefinedUser"],'" data="',$config->ParameterArray["RequireDefinedUser"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -1932,8 +1932,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="WorkOrderBuilder">',__("Work Order Builder"),'</label></div>
 					<div><select id="WorkOrderBuilder" name="WorkOrderBuilder" defaultvalue="',$config->defaults["WorkOrderBuilder"],'" data="',$config->ParameterArray["WorkOrderBuilder"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -1943,8 +1943,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="FilterCabinetList">',__("Filter Cabinet List"),'</label></div>
 					<div><select id="FilterCabinetList" name="FilterCabinetList" defaultvalue="',$config->defaults["FilterCabinetList"],'" data="',$config->ParameterArray["FilterCabinetList"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -1954,16 +1954,16 @@ echo '<div class="main">
 				<div>
 					<div><label for="RackRequests">',__("Rack Requests"),'</label></div>
 					<div><select id="RackRequests" name="RackRequests" defaultvalue="',$config->defaults["RackRequests"],'" data="',$config->ParameterArray["RackRequests"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
 				<div>
 					<div><label for="RackRequestsActions">',__("Rack Requests Actions"),'</label></div>
 					<div><select id="RackRequestsActions" name="RackRequestsActions" defaultvalue="',$config->defaults["RackRequestsActions"],'" data="',$config->ParameterArray["RackRequestsActions"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -2063,16 +2063,16 @@ echo '<div class="main">
 				<div>
 					<div><label for="OutlineCabinets">',__("Draw Cabinet Outlines"),'</label></div>
 					<div><select id="OutlineCabinets" name="OutlineCabinets" defaultvalue="',$config->defaults["OutlineCabinets"],'" data="',$config->ParameterArray["OutlineCabinets"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
 				<div>
 					<div><label for="LabelCabinets">',__("Add Cabinet Labels"),'</label></div>
 					<div><select id="LabelCabinets" name="LabelCabinets" defaultvalue="',$config->defaults["LabelCabinets"],'" data="',$config->ParameterArray["LabelCabinets"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -2118,26 +2118,26 @@ echo '<div class="main">
 			</div> <!-- end table -->
 		</div>
 		<div id="privacy">
-			<h3>',__("GDPR Enforcement"),'</h3>
+			<h3>',__("GDPR 시행"),'</h3>
 			<div class="table">
 				<div>
-					<div><label for="GDPRCountryIsolation">',__("GDPR Enforcement of Country Isolation"),'</label></div>
+					<div><label for="GDPRCountryIsolation">',__("GDPR 국가 격리 시행"),'</label></div>
 					<div><select id="GDPRCountryIsolation" name="GDPRCountryIsolation" defaultvalue="',$config->defaults["GDPRCountryIsolation"],'" data="',$config->ParameterArray["GDPRCountryIsolation"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
 				<div>
-					<div><label for="GDPRPIIPrivacy">',__("GPDR PII Privacy"),'</label></div>
+					<div><label for="GDPRPIIPrivacy">',__("GPDR PII 개인정보"),'</label></div>
 					<div><select id="GDPRPIIPrivacy" name="GDPRPIIPrivacy" defaultvalue="',$config->defaults["GDPRPIIPrivacy"],'" data="',$config->ParameterArray["GDPRPIIPrivacy"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>					
 				</div>
 				<div>
-					<div><label for "DefaultCountry">',__("Default Country for Users"),'</label></div>
+					<div><label for "DefaultCountry">',__("사용자 지정 국가"),'</label></div>
 					<div><select id="DefaultCountry" name="DefaultCountry" defaultValue="',$config->defaults["DefaultCountry"],'" data="',$config->ParameterArray["DefaultCountry"],'">';
 					foreach ( $countryList as $country ) {
 						print "<option value=\"" . $country->countryCode . "\">" . $country->countryCode . " - " . $country->countryName . "</option>";
@@ -2197,16 +2197,16 @@ echo '<div class="main">
 				<div>
 					<div><label for="PowerAlertsEmail">',__("Email Alerts on Power Poll"),'</label></div>
 					<div><select id="PowerAlertsEmail" name="PowerAlertsEmail" defaultvalue="',$config->defaults["PowerAlertsEmail"],'" data="',$config->ParameterArray["PowerAlertsEmail"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
 				<div>
 					<div><label for="SensorAlertsEmail">',__("Email Alerts on Sensor Poll"),'</label></div>
 					<div><select id="SensorAlertsEmail" name="SensorAlertsEmail" defaultvalue="',$config->defaults["SensorAlertsEmail"],'" data="',$config->ParameterArray["SensorAlertsEmail"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -2336,8 +2336,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="ToolTips">',__("Cabinet ToolTips"),'</label></div>
 					<div><select id="ToolTips" name="ToolTips" defaultvalue="',$config->defaults["ToolTips"],'" data="',$config->ParameterArray["ToolTips"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -2349,8 +2349,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="CDUToolTips">',__("CDU ToolTips"),'</label></div>
 					<div><select id="CDUToolTips" name="CDUToolTips" defaultvalue="',$config->defaults["CDUToolTips"],'" data="',$config->ParameterArray["CDUToolTips"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -2549,7 +2549,7 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="ldap">
-			<h3>',__("OIDC Connection Configuration"),'</h3>
+			<h3>',__("OIDC 연결 구성"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="OIDCEndpoint">',__("OIDC Authorization Endpoint"),'</label></div>
@@ -2597,8 +2597,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="LDAPDebug">',__("LDAP Debugging"),'</label></div>
 					<div><select id="LDAPDebug" name="LDAPDebug" defaultValue="',$config->defaults["LDAPDebug"],'" data="', $config->ParameterArray["LDAPDebug"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
@@ -2618,8 +2618,8 @@ echo '<div class="main">
 				<div>
 					<div><label for="SAMLShowSuccessPage">',__("Show Success Page"),'</label></div>
 					<div><select id="SAMLShowSuccessPage" name="SAMLShowSuccessPage" defaultValue="',$config->defaults["SAMLShowSuccessPage"],'" data="', $config->ParameterArray["SAMLShowSuccessPage"],'">
-							<option value="disabled">',__("Disabled"),'</option>
-							<option value="enabled">',__("Enabled"),'</option>
+							<option value="disabled">',__("비활성됨"),'</option>
+							<option value="enabled">',__("활성화됨"),'</option>
 						</select>
 					</div>
 				</div>
