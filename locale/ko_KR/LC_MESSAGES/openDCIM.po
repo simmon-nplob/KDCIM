@@ -2986,7 +2986,7 @@ msgstr "목록 내보내기"
 
 #: openDCIM/index.php:103
 msgid "Hosted Systems"
-msgstr "초대된 시스템"
+msgstr "관리 시스템"
 
 #: openDCIM/index.php:110
 msgid "DC Count"
