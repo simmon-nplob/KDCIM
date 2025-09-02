@@ -2706,18 +2706,20 @@ echo '<div class="main">
 			<iframe src="preflight.inc.php"></iframe>
 		</div><!-- end preflight tab -->
 		<div id="credits">
-			<h2>openDCIM License</h2>
-			<p>openDCIM is licensed under the GPL v3 license, which may be found <a href="http://www.gnu.org/licenses/gpl-3.0.html">at this location.</a></p>
-			<h2>Source Code</h2>
-			<p>The source code for openDCIM is maintained in GitHub at <a href="https://github.com/opendcim/openDCIM">https://github.com/opendcim/openDCIM</a>.   All issue tracking and bug reporting is done through GitHub, but before reporting an issue, one should research both the open and closed issues to see if that bug has already been resolved.</p>
-			<h2>Online Chat</h2>
-			<p>The developers maintain a chat room on the <a href="https://libera.chat">Libera</a> IRC chat network, in the channel #opendcim.</p>
-			<h2>Mailing List</h2>
-			<p>A mailing list is maintained for asking usage questions, announcements of new versions, and feature requests.   Please sign up at <a href="http://list.opendcim.org/mailman/listinfo/discussion">our MailMan list.</a></p>
-			<h2>Developers</h2>
+			<h2>openDCIM 저작권</h2>
+			<p>openDCIM은 GPL v3 저작권에 의해 부여되며, 이는 <a href="http://www.gnu.org/licenses/gpl-3.0.html">해당 위치</a>에서 찾을 수 있습니다.</p>
+			<h2>코드 출처</h2>
+			<p>openDCIM의 원천 코드는 <a href="https://github.com/opendcim/openDCIM">https://github.com/opendcim/openDCIM</a>에서 관리됩니다. 모든 문제의 추적 및 결점 보고는 GitHub를 이뤄지지만, 문제를 보고하기 전에 만약 결점이 이미 해결되었는지 확인하여 알려진 문제와 종료된 문제를 문제 모두를 조사하세요.</p>
+			<h2>온라인 대화</h2>
+			<p>개발자들은 #opendcim 채널인 <a href="https://libera.chat">Libera</a> IRC 대화 네트워크에서 대화를 운영하고 있습니다.</p>
+			<h2>전자우편 목록</h2>
+			<p>사용 문의, 신규 버전 발표 및 기능 요청을 위하 전자우편 목록을 운영하고 있습니다. 전자우편 전송 목록에 서명해 주세요. <a href="http://list.opendcim.org/mailman/listinfo/discussion">우리의 전자우편 전송 목록</a>에 서명해주세요.</p>
+			<h2>개발자</h2>
 			<div>
-			<p>While Open Source Software is the work of many contributors, the primary developers for openDCIM are Scott Milliken and Wilbur Longwisch.</p>
-			The <strong>openDCIM Foundation, LLC</strong> is a corporation formed to manage the project and cover any expenses related to hosting and publicizing openDCIM.  If you find openDCIM to be useful, please consider a donation, of any amount.  Thank you.
+			<p>개방형 원천 소프트웨어는 많은 공헌자의 작업이지만, openDCIM의 주 개발자는 Scott Milliken 및 Wilbur Longwisch입니다.</p>
+			<strong>openDCIM 재단, LLC</strong>는 프로젝트를 관리하고 openDCIM을 호스팅 및 광고하는 데 연관된 비용을 담당하도록 설립되었습니다.  만약 당신이 openDCIM이 유용하다고 생각되면, 금액과 상관없이 기부해 주시기 바랍니다. 감사합니다.
+			<h2>KDCIM 프로젝트</h2>
+			<p>opendcim을 근간으로 한글화 프로젝트인 KDCIM으로 만들었습니다. KDCIM의 원천 코드는 <a href="https://github.com/simmon-nplob/KDCIM">https://github.com/simmon-nplob/KDCIM</a>에서 관리합니다.</p>
 			</div>
 			<div style="width: 140px;">
 				<a href="https://www.paypal.com/donate?hosted_button_id=BVXBDKES3PV32">
