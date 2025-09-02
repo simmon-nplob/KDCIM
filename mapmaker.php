@@ -202,7 +202,7 @@
 <?php echo "<img src=\"css/blank.gif\" height=$height width=$width>"; ?>
 <div class="container demo"> 
   <div style="float: left; width: 70%;"> 
-    <p class="instructions"><?php echo __("Click and drag on the image to select an area for "),' ',$name; ?>.</p> 
+    <p class="instructions"><?php echo  __("Click and drag on the image to select an area for "),' : ',$name; ?>사진</p> 
  
     <div class="frame" style="margin: 0 0.3em; width: 300px; height: 300px;">
 		<?php
