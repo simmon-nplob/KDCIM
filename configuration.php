@@ -2713,7 +2713,7 @@ echo '<div class="main">
 			<h2>온라인 대화</h2>
 			<p>개발자들은 #opendcim 채널인 <a href="https://libera.chat">Libera</a> IRC 대화 네트워크에서 대화를 운영하고 있습니다.</p>
 			<h2>전자우편 목록</h2>
-			<p>사용 문의, 신규 버전 발표 및 기능 요청을 위하 전자우편 목록을 운영하고 있습니다. 전자우편 전송 목록에 서명해 주세요. <a href="http://list.opendcim.org/mailman/listinfo/discussion">우리의 우편 목록</a>에 서명해주세요.</p>
+			<p>사용 문의, 신규 버전 발표 및 기능 요청을 위해 전자우편 목록을 운영하고 있습니다. 전자우편 전송 목록에 서명해 주세요. <a href="http://list.opendcim.org/mailman/listinfo/discussion">우리의 우편 목록</a>에 서명해주세요.</p>
 			<h2>개발자</h2>
 			<div>
 			<p>개방형 원천 소프트웨어는 많은 공헌자의 작업이지만, openDCIM의 주 개발자는 Scott Milliken 및 Wilbur Longwisch입니다.</p>
