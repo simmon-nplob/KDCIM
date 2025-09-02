@@ -26,6 +26,11 @@ I'm providing a document in LibreOffice word format .odt for the installation an
 Please refer to the document for installation and environment configuration.
 
 
+** 제약사항 / 검토중입니다.**
+
+     - audit 향태의 자산보고는 영문 전환 후에 사용하세요. 보고 관련해서 한글변환으로 글꼴이 깨집니다.
+
+
 즐겁게 사용해요!
 Have a fun!
 
