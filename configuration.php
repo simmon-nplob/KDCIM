@@ -2713,11 +2713,11 @@ echo '<div class="main">
 			<h2>온라인 대화</h2>
 			<p>개발자들은 #opendcim 채널인 <a href="https://libera.chat">Libera</a> IRC 대화 네트워크에서 대화를 운영하고 있습니다.</p>
 			<h2>전자우편 목록</h2>
-			<p>사용 문의, 신규 버전 발표 및 기능 요청을 위하 전자우편 목록을 운영하고 있습니다. 전자우편 전송 목록에 서명해 주세요. <a href="http://list.opendcim.org/mailman/listinfo/discussion">우리의 전자우편 전송 목록</a>에 서명해주세요.</p>
+			<p>사용 문의, 신규 버전 발표 및 기능 요청을 위하 전자우편 목록을 운영하고 있습니다. 전자우편 전송 목록에 서명해 주세요. <a href="http://list.opendcim.org/mailman/listinfo/discussion">우리의 우편 목록</a>에 서명해주세요.</p>
 			<h2>개발자</h2>
 			<div>
 			<p>개방형 원천 소프트웨어는 많은 공헌자의 작업이지만, openDCIM의 주 개발자는 Scott Milliken 및 Wilbur Longwisch입니다.</p>
-			<strong>openDCIM 재단, LLC</strong>는 프로젝트를 관리하고 openDCIM을 호스팅 및 광고하는 데 연관된 비용을 담당하도록 설립되었습니다.  만약 당신이 openDCIM이 유용하다고 생각되면, 금액과 상관없이 기부해 주시기 바랍니다. 감사합니다.
+			<strong>openDCIM 재단, LLC</strong>는 프로젝트를 관리하고 openDCIM을 호스팅 및 광고에 연관된 비용을 담당하도록 설립되었습니다. 만약 당신이 openDCIM이 유용하다고 생각되면, 금액과 상관없이 기부해 주시기 바랍니다. 감사합니다.
 			<h2>KDCIM 프로젝트</h2>
 			<p>opendcim을 근간으로 한글화 프로젝트인 KDCIM으로 만들었습니다. KDCIM의 원천 코드는 <a href="https://github.com/simmon-nplob/KDCIM">https://github.com/simmon-nplob/KDCIM</a>에서 관리합니다.</p>
 			</div>
