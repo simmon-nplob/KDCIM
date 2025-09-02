@@ -5472,7 +5472,7 @@ msgstr "신이시여 도와주세요. 무엇인가 끔찍하게 잘못되었었�
 
 #: openDCIM/classes/DataCenter.class.php:515
 msgid "Composite View of Cabinets"
-msgstr "보관함의 합성 보기"
+msgstr "보관함의 지도 합성 보기"
 
 #: openDCIM/classes/DataCenter.class.php:516
 msgid "Occupied Space"
