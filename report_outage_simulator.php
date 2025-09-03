@@ -37,7 +37,7 @@ if (!isset($_REQUEST['action'])){
 </div>
 <div class="main">
 <h2>openDCIM</h2>
-<h3>Outage Impact Simulation</h3>
+<h3>정전 영향 모의시험</h3>
 <form method="post">
 <table align="center" border=0>
 <?php
