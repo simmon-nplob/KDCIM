@@ -1544,7 +1544,6 @@ msgid "Username Transformations"
 msgstr "사용자이름 변환"
 
 #: openDCIM/configuration.php:2465
-#, fuzzy
 msgid "Authentication Attribute Mapping"
 msgstr "인증 속성 대응하기"
 
@@ -1621,7 +1620,6 @@ msgid "Site Admin"
 msgstr "사이트 관리"
 
 #: openDCIM/configuration.php:2612
-#, fuzzy
 msgid "SAML Authentication Configuration"
 msgstr "SAML 인증 구성"
 
