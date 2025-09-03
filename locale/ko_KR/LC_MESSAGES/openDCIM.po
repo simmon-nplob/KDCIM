@@ -911,19 +911,19 @@ msgstr "사용자 정의 장치 속싱 삭제 재정의"
 msgid "This custom device attribute is in use somewhere. If you choose to delete the attribute, it will be removed from all devices and device templates."
 msgstr "이와 같은 상룡자 정의 장치 속성은 어딘가에서 사용중입니다. 만약 속성을 삭제하려고 선택하면, 모든 장치 및 장치 템플릿트에서 제거됩니다."
 
-#: openDCIM/configuration.php:1752
+#: openDCIM/configuration.php:1754
 msgid "General"
 msgstr "일반"
 
-#: openDCIM/configuration.php:1753
-msgid "Workflow"
-msgstr "작업흐름"
+#: openDCIM/configuration.php:1755
+msgid "Workflow Style"
+msgstr "작업흐름 양식"
 
-#: openDCIM/configuration.php:1754
-msgid "Style"
-msgstr "유형"
+#: openDCIM/configuration.php:1756
+msgid "Privacy Email"
+msgstr "정보보호 전자우편"
 
-#: openDCIM/configuration.php:1755 openDCIM/configuration.php:2442
+#: openDCIM/configuration.php:1756 openDCIM/configuration.php:2442
 #: openDCIM/report_contact.php:450 openDCIM/report_cost.php:435
 #: openDCIM/report_department.php:179 openDCIM/report_vm_by_department.php:223
 msgid "Email"
@@ -1043,6 +1043,15 @@ msgstr "사용자 조회 URL"
 msgid "Block Undefined Users"
 msgstr "정의되지 않은 사용자 차단"
 
+#: openDCIM/configuration.php:2121
+msgid "GDPR Enforcement"
+msgstr "GDPR 시행"
+
+
+#: openDCIM/configuration.php:2124
+msgid "GDPR Enforcement of Country Isolation"
+msgstr "GDPR 국가 격리 시행"
+
 #: openDCIM/configuration.php:1859 openDCIM/configuration.php:1934
 #: openDCIM/configuration.php:1945 openDCIM/configuration.php:1956
 #: openDCIM/configuration.php:1964 openDCIM/configuration.php:2062
@@ -1054,6 +1063,10 @@ msgstr "정의되지 않은 사용자 차단"
 msgid "Disabled"
 msgstr "비활성됨"
 
+#: openDCIM/configuration.php:2132
+msgid "GDPR PII Policy"
+msgstr "GDPR PII 정책"
+
 #: openDCIM/configuration.php:1860 openDCIM/configuration.php:1935
 #: openDCIM/configuration.php:1946 openDCIM/configuration.php:1957
 #: openDCIM/configuration.php:1965 openDCIM/configuration.php:2063
@@ -1063,6 +1076,14 @@ msgstr "비활성됨"
 #: openDCIM/configuration.php:2573
 msgid "Enabled"
 msgstr "활성화됨"
+
+#: openDCIM/configuration.php:2140
+msgid "Default Country for Users"
+msgstr "사용자 기본 국가"
+
+#: openDCIM/configuration.php:2150
+msgid "SMTP Options"
+msgstr "SMTP 옵션"
 
 #: openDCIM/configuration.php:1865
 msgid "Rack Usage"
@@ -1206,9 +1227,9 @@ msgstr "API 사용자ID"
 msgid "API Key"
 msgstr "API 키"
 
-#: openDCIM/configuration.php:1996
-msgid "Racks & Maps"
-msgstr "랙 & 지도"
+#: openDCIM/configuration.php:2000
+msgid "Racks & Maps - Color"
+msgstr "랙 & 지도 - 색상"
 
 #: openDCIM/configuration.php:1999
 msgid "Critical Color"
@@ -1279,9 +1300,9 @@ msgstr "보관함 외곽선 그리기"
 msgid "Add Cabinet Labels"
 msgstr "보관함 이름표 추가"
 
-#: openDCIM/configuration.php:2088
-msgid "Site"
-msgstr "사이트"
+#: openDCIM/configuration.php:2092
+msgid "Site - Color"
+msgstr "사이트 - 색상"
 
 #: openDCIM/configuration.php:2091
 msgid "Header Color"
@@ -1514,12 +1535,20 @@ msgstr "<br>모든 장치에 적용"
 msgid "Default Value"
 msgstr "기본값 수치"
 
-#: openDCIM/configuration.php:2416 openDCIM/search_export.php:149
-#, fuzzy
-msgid "Device Status"
-msgstr "장치 상태"
+#: openDCIM/configuration.php:2450
+msgid "Device Status - Color"
+msgstr "장치 상태 - 색상"
 
-#: openDCIM/configuration.php:2522
+#: openDCIM/configuration.php:2434
+msgid "Username Transformations"
+msgstr "사용자이름 변환"
+
+#: openDCIM/configuration.php:2465
+#, fuzzy
+msgid "Authentication Attribute Mapping"
+msgstr "인증 속성 대응하기"
+
+#: openDCIM/configuration.php:2571
 msgid "LDAP Authentication and Authorization Configuration"
 msgstr "LDAP 인증 및 권한 구성"
 
@@ -1591,7 +1620,7 @@ msgstr "대량 작업"
 msgid "Site Admin"
 msgstr "사이트 관리"
 
-#: openDCIM/configuration.php:2563
+#: openDCIM/configuration.php:2612
 #, fuzzy
 msgid "SAML Authentication Configuration"
 msgstr "SAML 인증 구성"
@@ -2340,6 +2369,10 @@ msgstr "보증 기업"
 msgid "Warranty Expiration"
 msgstr "보증 만료"
 
+#: openDCIM/search_export.php:149
+msgid "Device Status"
+msgstr "장치 상태"
+
 #: openDCIM/devices.php:1839
 msgid "Last Audit Completed"
 msgstr "최근 감사 완료됨"
@@ -2425,7 +2458,7 @@ msgstr "데이타 포트 수"
 msgid "Nominal Draw (Watts)"
 msgstr "명목상 소비 (와트)"
 
-#: openDCIM/devices.php:2006 openDCIM/devices.php:2431
+#: openDCIM/devices.php:2006 openDCIM/devices.php:2029
 msgid "Power Connections"
 msgstr "전원 연결"
 
@@ -3076,7 +3109,8 @@ msgstr "%s에서 권한을 확인하고 읽을 수 있도록 해주세요."
 msgid "Selection Preview"
 msgstr "미리보기 선택"
 
-#: openDCIM/misc.inc.php:851 openDCIM/storageroom.php:44
+#: openDCIM/misc.inc.php:858 
+#: openDCIM/storageroom.php:44
 #: openDCIM/classes/Container.class.php:207
 msgid "General Storage Room"
 msgstr "일반 보관실"
@@ -4104,7 +4138,7 @@ msgstr "서비스 제공 관리자"
 msgid "Phone1"
 msgstr "전화1"
 
-#: openDCIM/configuration.php:2450 openDCIM/report_contact.php:450
+#: openDCIM/configuration.php:2480 openDCIM/report_contact.php:450
 #: openDCIM/report_cost.php:435 openDCIM/report_department.php:179
 #: openDCIM/report_vm_by_department.php:223
 msgid "Phone2"
@@ -4550,6 +4584,10 @@ msgstr "서버 등급 인증 보고"
 msgid "Cabinet List"
 msgstr "보관함 목록"
 
+#: openDCIM/reports.php:70
+msgid "Sensor List"
+msgstr "센서 목록"
+
 #: openDCIM/reports.php:72
 msgid "Auditing Reports"
 msgstr "감사 보고"
@@ -4846,13 +4884,17 @@ msgstr "기본"
 msgid "Home"
 msgstr "홈"
 
-#: openDCIM/storageroom.php:5 openDCIM/storageroom.php:54
-msgid "Storage Room Maintenance"
-msgstr "저장소 공간 유지보수"
+#: openDCIM/sidebar.inc.php:106
+msgid "Language"
+msgstr "언어"
 
 #: openDCIM/storageroom.php:41
 msgid "%s Storage Room"
 msgstr "%s 저장 공간"
+
+#: openDCIM/storageroom.php:5 openDCIM/storageroom.php:54
+msgid "Storage Room Maintenance"
+msgstr "저장소 공간 유지보수"
 
 #: openDCIM/storageroom.php:78
 msgid "Serial No."
@@ -5181,7 +5223,7 @@ msgstr "ColorID인 색상 삭제하는 데 실패함"
 
 #: openDCIM/api/v1/deleteRoutes.php:154 openDCIM/api/v1/index2.php:1778
 msgid "Device doesn't exist"
-msgstr "Device doesn't exist"
+msgstr "장치가 존재하지 않습니다"
 
 #: openDCIM/api/v1/deleteRoutes.php:159 openDCIM/api/v1/index2.php:1119
 #: openDCIM/api/v1/index2.php:1154 openDCIM/api/v1/index2.php:1194
@@ -5598,7 +5640,7 @@ msgstr "속성 대응하기"
 
 #: openDCIM/configuration.php:1781
 msgid "Site Specific Paths"
-msgstr "사이트 특정 경로"
+msgstr "사이트 지정 경로"
 
 #: openDCIM/configuration.php:1787
 msgid "Relative path for Drawings"
@@ -5732,6 +5774,10 @@ msgstr "IdP x509 인증서"
 msgid "Refresh IdP Metadata"
 msgstr "IdP 메타자료 갱신"
 
+#: openDCIM/configuration.php:2652
+msgid "No Certificate"
+msgstr "인증서 없음"
+
 #: openDCIM/container.php:157
 msgid "This container will be deleted and there is no undo. Their direct descendants will be moved to \\'home\\'."
 msgstr "이 컨테이너는 삭제되고 이를 다시 취소 할 수 없습니다. 그들의 직접 내림은 \\'home\\'으로 이동됩니다."
@@ -5808,7 +5854,7 @@ msgstr "최종 수정 시간"
 msgid "Last Modified By"
 msgstr "최종 수정됨"
 
-#: openDCIM/sidebar.inc.php:11
+#: openDCIM/ridebar.inc.php:11
 msgid "Custom Search"
 msgstr "사용자 정의 검색"
 
@@ -6050,30 +6096,24 @@ msgstr "OIDC/LDAP"
 msgid "Credits"
 msgstr "공헌"
 
-#: openDCIM/configuration.php:2431
-#, fuzzy
-msgid "Authentication Attribute Mapping"
-msgstr "데이터 센터 삭제 확인"
-
-#: openDCIM/configuration.php:2458
+#: openDCIM/configuration.php:2503
 msgid "Group/Scope Mapping"
 msgstr "그룹/범위 대응하기"
 
-#: openDCIM/configuration.php:2507
-#, fuzzy
+#: openDCIM/configuration.php:2552
 msgid "OIDC Connection Configuration"
-msgstr "데이터 센터 삭제 확인"
+msgstr "OIDC 연결 구성"
 
-#: openDCIM/configuration.php:2510
+#: openDCIM/configuration.php:2555
 #, fuzzy
 msgid "OIDC Authorization Endpoint"
-msgstr "대량 장치 가져 오기"
+msgstr "OIDC 권한 종료점"
 
-#: openDCIM/configuration.php:2514
+#: openDCIM/configuration.php:2559
 msgid "OIDC Client ID"
 msgstr "OIDC 고객 ID"
 
-#: openDCIM/configuration.php:2518
+#: openDCIM/configuration.php:2563
 msgid "OIDC Client Secret"
 msgstr "OIDC 고객 비밀"
 
