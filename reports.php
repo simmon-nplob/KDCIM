@@ -66,7 +66,7 @@ echo '<div class="main">
 	<a href="report_power_utilization.php" style="text-decoration: none;">',__("Server Tier Classification Report"),'</a>
     <a href="report_panel_schedule.php" style="text-decoration: none;">',__("Power Panel Schedule Report"),'</a>
     <a href="report_cabinets.php" style="text-decoration: none;">',__("Cabinet List"),'</a>
-    <a href="report_sensors.php" style="text-decoration: none;">',__("센서 목록"),'</a>
+    <a href="report_sensors.php" style="text-decoration: none;">',__("Sensor List"),'</a>
 </fieldset>
 <fieldset>
 	<legend>',__("Auditing Reports"),'</legend>
