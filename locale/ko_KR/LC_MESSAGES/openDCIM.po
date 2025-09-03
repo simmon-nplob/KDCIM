@@ -4550,6 +4550,10 @@ msgstr "서버 등급 인증 보고"
 msgid "Cabinet List"
 msgstr "보관함 목록"
 
+#: openDCIM/reports.php:70
+msgid "Sensor List"
+msgstr "센서 목록"
+
 #: openDCIM/reports.php:72
 msgid "Auditing Reports"
 msgstr "감사 보고"
