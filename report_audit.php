@@ -183,7 +183,7 @@ $(function(){
 		<div><label for="datacenterid">데이타 센타:</label></div>
 		<div>
 			<select id="datacenterid" name="datacenterid">
-				<option value="">데이타 센타 선택</option>
+				<option value="">Select data center</option>
 <?php
 	foreach($dcList as $dc){
 		print "				<option value=\"$dc->DataCenterID\">$dc->Name</option>\n";
