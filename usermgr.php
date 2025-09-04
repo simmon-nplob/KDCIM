@@ -280,7 +280,11 @@ echo '	</select>&nbsp;&nbsp;<span title="',__("This user is the primary contact 
    <div><input type="text" name="Phone2" id="Phone2" value="',$userRights->Phone2,'"></div>
 </div>
 <div>
-   <div><label for="Country">',__("국가"),'</label></div>
+   <div><label for="Phone2">',__("Phone 3"),'</label></div>
+   <div><input type="text" name="Phone2" id="Phone3" value="',$userRights->Phone3,'"></div>
+</div>
+<div>
+   <div><label for="Country">',__("Country"),'</label></div>
    <div>
    	<select name="countryCode" id="countryCode">';
    	foreach($countryList as $countryRow ) {
@@ -301,11 +305,11 @@ echo '	</select>&nbsp;&nbsp;<span title="',__("This user is the primary contact 
    <div><input type="text" class="validate[optional,custom[email],condRequired[RackRequest]]" name="Email" id="Email" value="',$userRights->Email,'"></div>
 </div>
 <div>
-	<div><label for="LastActivity">',__("최근 활동"),'</label></div>
+	<div><label for="LastActivity">',__("Last Activity"),'</label></div>
 	<div>',$userRights->LastActivity=='0000-00-00 00:00:00'?__("Never"):date('r',strtotime($userRights->LastActivity)),'</div>
 </div>
 <div>
-	<div><label for="ExpirationDate">',__("만료 날짜"),'</label></div>
+	<div><label for="ExpirationDate">',__("Expiration Date"),'</label></div>
 	<div><input type="text" name="ExpirationDate" id="ExpirationDate" value=',$userRights->ExpirationDate=='0000-00-00'?'':date('Y/m/d',strtotime($userRights->ExpirationDate)),'></div>
 </div>
 <div>
@@ -323,7 +327,7 @@ echo '	</select>&nbsp;&nbsp;<span title="',__("This user is the primary contact 
 	<input name="ReadAccess" id="ReadAccess" type="checkbox" ',$read,'><label for="ReadAccess">',__("Read/Report Access (Global)"),'</label><br>
 	<input name="WriteAccess" id="WriteAccess" type="checkbox" ',$write,'><label for="WriteAccess">',__("Modify/Enter Devices (Global)"),'</label><br>
 	<input name="DeleteAccess" id="DeleteAccess" type="checkbox" ',$delete,'><label for="DeleteAccess">',__("Delete Devices (Global)"),'</label><br>
-	<input name="ContactAdmin" id="ContactAdmin" type="checkbox" ',$contact,'><label for="ContactAdmin">',__("입력/수정 연락처 및 부서"),'</label><br>
+	<input name="ContactAdmin" id="ContactAdmin" type="checkbox" ',$contact,'><label for="ContactAdmin">',__("Enter/Modify Contacts and Departments"),'</label><br>
 	<input name="RackRequest" id="RackRequest" type="checkbox" ',$request,'><label for="RackRequest">',__("Enter Rack Requests"),'</label><br>
 	<input name="RackAdmin" id="RackAdmin" type="checkbox" ',$RackAdmin,'><label for="RackAdmin">',__("Complete Rack Requests"),'</label><br>
 	<input name="BulkOperations" id="BulkOperations" type="checkbox" ',$BulkOperations,'><label for="BulkOperations">',__("Perform Bulk Operations"),'</label><br>
