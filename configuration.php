@@ -4,7 +4,7 @@
 	require_once( "db.inc.php" );
 	require_once( "facilities.inc.php" );
 
-	$subheader=__("데이타 센타 환경구성");
+	$subheader=__("Data Center Configuration");
 	$timestamp=time();
 	$salt=md5('unique_salt' . $timestamp);
 
@@ -1752,8 +1752,8 @@ echo '<div class="main">
 	<div id="configtabs">
 		<ul>
 			<li><a href="#general">',__("General"),'</a></li>
-			<li><a href="#workflow">',__("작업흐름/유형"),'</a></li>
-			<li><a href="#privacy">',__("개인정보/전자우편"),'</a></li>
+			<li><a href="#workflow">',__("Workflow Style"),'</a></li>
+			<li><a href="#privacy">',__("Privacy Email"),'</a></li>
 			<li><a href="#reporting">',__("Reporting"),'</a></li>
 			<li><a href="#tt">',__("ToolTips"),'</a></li>
 			<li><a href="#cc">',__("Cabling"),'</a></li>
@@ -1997,7 +1997,7 @@ echo '<div class="main">
 				<input type="hidden" name="APIUserID" value="',$config->ParameterArray["APIUserID"],'">
 				<input type="hidden" name="APIKey" value="',$config->ParameterArray["APIKey"],'">
 			</div>
-			<h3>',__("Racks & Maps"),'</h3>
+			<h3>',__("Racks & Maps - Color"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="CriticalColor">',__("Critical Color"),'</label></div>
@@ -2089,7 +2089,7 @@ echo '<div class="main">
 				</div>
 				
 			</div> <!-- end table -->
-			<h3>',__("Site"),'</h3>
+			<h3>',__("Site - Color"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="HeaderColor">',__("Header Color"),'</label></div>
@@ -2118,10 +2118,10 @@ echo '<div class="main">
 			</div> <!-- end table -->
 		</div>
 		<div id="privacy">
-			<h3>',__("GDPR 시행"),'</h3>
+			<h3>',__("GDPR Enforcement"),'</h3>
 			<div class="table">
 				<div>
-					<div><label for="GDPRCountryIsolation">',__("GDPR 국가 격리 시행"),'</label></div>
+					<div><label for="GDPRCountryIsolation">',__("GDPR Enforcement of Country Isolation"),'</label></div>
 					<div><select id="GDPRCountryIsolation" name="GDPRCountryIsolation" defaultvalue="',$config->defaults["GDPRCountryIsolation"],'" data="',$config->ParameterArray["GDPRCountryIsolation"],'">
 							<option value="disabled">',__("Disabled"),'</option>
 							<option value="enabled">',__("Enabled"),'</option>
@@ -2129,7 +2129,7 @@ echo '<div class="main">
 					</div>
 				</div>
 				<div>
-					<div><label for="GDPRPIIPrivacy">',__("GPDR PII 정책"),'</label></div>
+					<div><label for="GDPRPIIPrivacy">',__("GPDR PII Policy"),'</label></div>
 					<div><select id="GDPRPIIPrivacy" name="GDPRPIIPrivacy" defaultvalue="',$config->defaults["GDPRPIIPrivacy"],'" data="',$config->ParameterArray["GDPRPIIPrivacy"],'">
 							<option value="disabled">',__("Disabled"),'</option>
 							<option value="enabled">',__("Enabled"),'</option>
@@ -2137,7 +2137,7 @@ echo '<div class="main">
 					</div>					
 				</div>
 				<div>
-					<div><label for "DefaultCountry">',__("사용자 지정 국가"),'</label></div>
+					<div><label for "DefaultCountry">',__("Default Country for Users"),'</label></div>
 					<div><select id="DefaultCountry" name="DefaultCountry" defaultValue="',$config->defaults["DefaultCountry"],'" data="',$config->ParameterArray["DefaultCountry"],'">';
 					foreach ( $countryList as $country ) {
 						print "<option value=\"" . $country->countryCode . "\">" . $country->countryCode . " - " . $country->countryName . "</option>";
@@ -2147,7 +2147,7 @@ echo '<div class="main">
 					</div>
 				</div>
 			</div>
-			<h3>',__("SMTP 옵션"),'</h3>
+			<h3>',__("SMTP Options"),'</h3>
 		    <fieldset id="smtpblock">
 			<div class="table">
 				<div>
@@ -2447,7 +2447,7 @@ echo '<div class="main">
 					<div><input type="text" name="dcavalue[]"></div>
 				</div>
 			</div>
-			<h3>',__("장치 상태"),'</h3>
+			<h3>',__("Device Status - Color"),'</h3>
 			<div class="table" id="devstatus">
 				<div>
 					<div></div>
@@ -2462,7 +2462,7 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="mappers">
-			<h3>',__("권한 속성 대응하기"),'</h3>
+			<h3>',__("Authentication Attribute Mapping"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="AttrFirstName">',__("FirstName"),'</label></div>
@@ -2489,7 +2489,7 @@ echo '<div class="main">
 					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrCountry"],'" name="AttrCountry" value="',$config->ParameterArray["AttrCountry"],'"></div>
 				</div>
 			</div>
-			<h3>',__("사용자이름 변환"),'</h3>
+			<h3>',__("Username Transformations"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="SAMLaccountPrefix">',__("Remove Account Prefix"),'</label></div>
@@ -2549,10 +2549,10 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="ldap">
-			<h3>',__("OIDC 연결 구성"),'</h3>
+			<h3>',__("OIDC Connection Configuration"),'</h3>
 			<div class="table">
 				<div>
-					<div><label for="OIDCEndpoint">',__("OIDC 권한 종료점"),'</label></div>
+					<div><label for="OIDCEndpoint">',__("OIDC Authorization Endpoint"),'</label></div>
 					<div><input type="text" size=50 defaultvalue="',$config->defaults["OIDCEndpoint"],'" name="OIDCEndpoint" value="',$config->ParameterArray["OIDCEndpoint"],'"></div>
 				</div>
 				<div>
@@ -2609,7 +2609,7 @@ echo '<div class="main">
 			</div>
 		</div>
 		<div id="saml">
-			<h3>',__("SAML 인증 구성"),'</h3>
+			<h3>',__("SAML Authentication Configuration"),'</h3>
 			<div class="table">
 				<div>
 					<div><label for="SAMLBaseURL">',__("Base URL"),'</label></div>
@@ -2649,7 +2649,7 @@ echo '<div class="main">
 				$validFrom = date('Y-m-d H:i:s', $data['validFrom_time_t']);
 				$validTo = date('Y-m-d H:i:s', $data['validTo_time_t']);
 			} else {
-				$validTo = "인증서 없음";
+				$validTo = "No Certificatte";
 			}	
 
 			echo '<div>
