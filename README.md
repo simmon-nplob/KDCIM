@@ -1,5 +1,5 @@
-KDCIM - openDCIM
------------
+    KDCIM - openDCIM
+    -----------
 
     해당 프로젝트는 openDCIM의 한글화 적용과 사용을 목적으로 합니다.
 
@@ -29,9 +29,8 @@ KDCIM - openDCIM
     내가 할 수 있다고 생각하면, 시작하면 된다. 그뿐이다!
     If I think I can do it, I just start. That's it!
 
+    즐겁게 사용해요!
+    Have a fun!
 
-즐겁게 사용해요!
-Have a fun!
-
-written by simmon
-simmon@nplob.com
+    written by simmon
+    simmon@nplob.com
