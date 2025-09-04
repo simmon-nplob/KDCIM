@@ -496,7 +496,7 @@ msgstr "기록"
 #: openDCIM/devices.php:2590 openDCIM/disposition.php:115
 #: openDCIM/escalations.php:86 openDCIM/power_panel.php:345
 #: openDCIM/project_mgr.php:174 openDCIM/report_logging.php:73
-#: openDCIM/timeperiods.php:86 openDCIM/usermgr_new.php:368
+#: openDCIM/timeperiods.php:86 openDCIM/usermgr.php:341
 #: openDCIM/usermgr.php:295 openDCIM/zone.php:180
 msgid "Update"
 msgstr "최신화"
@@ -529,7 +529,7 @@ msgstr "지도 좌표"
 #: openDCIM/power_panel.php:349 openDCIM/project_mgr.php:176
 #: openDCIM/rackrequest.php:513 openDCIM/report_logging.php:67
 #: openDCIM/supplybin.php:165 openDCIM/timeperiods.php:89
-#: openDCIM/usermgr_new.php:370 openDCIM/usermgr.php:297 openDCIM/zone.php:175
+#: openDCIM/usermgr_new.php:370 openDCIM/usermgr.php:344 openDCIM/zone.php:175
 msgid "Create"
 msgstr "생성"
 
@@ -548,8 +548,8 @@ msgstr "보관함 목록으로 돌아가기"
 #: openDCIM/power_panel.php:438 openDCIM/project_mgr.php:185
 #: openDCIM/rackrequest.php:521 openDCIM/reports.php:117
 #: openDCIM/supplies.php:128 openDCIM/supplybin.php:214
-#: openDCIM/timeperiods.php:96 openDCIM/usermgr_new.php:379
-#: openDCIM/usermgr.php:306 openDCIM/zone.php:206
+#: openDCIM/timeperiods.php:96 openDCIM/usermgr.php:353 
+#: openDCIM/zone.php:206
 msgid "Return to Main Menu"
 msgstr "주 메뉴로 돌아가기"
 
@@ -718,13 +718,13 @@ msgstr "이 보관함 및 그 안의 모든 장치를 삭제할까요?"
 
 #: openDCIM/cabnavigator.php:681 openDCIM/departments.php:236
 #: openDCIM/device_manufacturers.php:227 openDCIM/usermgr_new.php:394
-#: openDCIM/usermgr.php:321
+#: openDCIM/usermgr.php:368
 msgid "Are you REALLY sure?"
 msgstr "정말 확실한가요?"
 
 #: openDCIM/cabnavigator.php:682 openDCIM/departments.php:237
 #: openDCIM/device_manufacturers.php:228 openDCIM/usermgr_new.php:395
-#: openDCIM/usermgr.php:322
+#: openDCIM/usermgr.php:369
 msgid "Are you sure REALLY sure?  There is no undo!!"
 msgstr "정말 확실한가요?  취소 안됨!!"
 
@@ -1059,7 +1059,7 @@ msgstr "GDPR 국가 격리 시행"
 #: openDCIM/configuration.php:2174 openDCIM/configuration.php:2305
 #: openDCIM/configuration.php:2318 openDCIM/configuration.php:2333
 #: openDCIM/configuration.php:2373 openDCIM/configuration.php:2551
-#: openDCIM/configuration.php:2572 openDCIM/usermgr.php:289
+#: openDCIM/configuration.php:2572 openDCIM/usermgr.php:335
 msgid "Disabled"
 msgstr "비활성됨"
 
@@ -1223,7 +1223,7 @@ msgstr "사용자ID 및 키는 저장소에서 보낼 때만 필요하고, 가�
 msgid "API UserID"
 msgstr "API 사용자ID"
 
-#: openDCIM/configuration.php:1990 openDCIM/usermgr.php:270
+#: openDCIM/configuration.php:1990 openDCIM/usermgr.php:316
 msgid "API Key"
 msgstr "API 키"
 
@@ -2283,8 +2283,8 @@ msgstr "openDCIM 장치 유지보수"
 msgid "VM Name"
 msgstr "VM 이름"
 
-#: openDCIM/devices.php:918 openDCIM/devices.php:1791 openDCIM/devices.php:2440
-#: openDCIM/devices.php:2485 openDCIM/disposition.php:102
+#: openDCIM/devices.php:934 openDCIM/devices.php:1814 openDCIM/devices.php:2466
+#: openDCIM/devices.php:2511 openDCIM/disposition.php:102
 #: openDCIM/report_project_outage_simulator.php:350
 #: openDCIM/report_surplus.php:142 openDCIM/vmnamecheck.php:64
 #: openDCIM/vmnamecheck.php:102
@@ -2302,14 +2302,14 @@ msgstr "상태"
 msgid "Owner"
 msgstr "소유자"
 
-#: openDCIM/devices.php:918 openDCIM/vmnamecheck.php:64
-#: openDCIM/vmnamecheck.php:102
+#: openDCIM/devices.php:934 openDCIM/vmnamecheck.php:43
+#: openDCIM/vmnamecheck.php:81
 msgid "Last Updated"
 msgstr "마지막 최신화"
 
-#: openDCIM/devices.php:926 openDCIM/devices.php:934
-#: openDCIM/report_exception.php:158 openDCIM/vmnamecheck.php:74
-#: openDCIM/vmnamecheck.php:112
+#: openDCIM/devices.php:942 penDCIM/devices.php:950
+#: openDCIM/report_exception.php:158 openDCIM/vmnamecheck.php:53
+#: openDCIM/vmnamecheck.php:91
 msgid "Unknown"
 msgstr "알 수 없음"
 
@@ -2341,11 +2341,11 @@ msgstr "만약 이 장치가 블레이드로 설치되어 있으면 삭제되고
 msgid "This device will be deleted and there is no undo. Are you sure?"
 msgstr "이 장치는 삭제되고 이를 취소 할 수 없습니다. 확실한가요?"
 
-#: openDCIM/devices.php:1784
+#: openDCIM/devices.php:1807
 msgid "Asset Tracking"
 msgstr "자산 추적 중"
 
-#: openDCIM/devices.php:1787
+#: openDCIM/devices.php:1810
 msgid "Device ID"
 msgstr "장치 ID"
 
@@ -3454,7 +3454,7 @@ msgid "openDCIM Department Membership Maintenance"
 msgstr "openDCIM 부서 회원 유지보수"
 
 #: openDCIM/people_depts.php:66 openDCIM/usermgr_new.php:368
-#: openDCIM/usermgr.php:295
+#: openDCIM/usermgr.php:342
 msgid "Department Membership"
 msgstr "부서 회원권"
 
@@ -4018,7 +4018,7 @@ msgstr "감사 요약"
 #: openDCIM/report_audit.php:286 openDCIM/report_contact.php:450
 #: openDCIM/report_cost.php:435 openDCIM/report_department.php:179
 #: openDCIM/report_logging.php:53 openDCIM/report_vm_by_department.php:223
-#: openDCIM/usermgr.php:242
+#: openDCIM/usermgr.php:263
 msgid "UserID"
 msgstr "사용자ID"
 
@@ -4258,7 +4258,7 @@ msgstr " DCIM에 예약된 총 U"
 msgid "Data Center Switch Capacity Exceptions Report"
 msgstr "데이타 센타 스위치 용량 예외 보고"
 
-#: openDCIM/report_exception.php:39 openDCIM/reports.php:62
+#: openDCIM/report_exception.php:39 openDCIM/reports.php:61
 msgid "Data Exceptions Report"
 msgstr "자료 예외 보고"
 
@@ -4355,7 +4355,7 @@ msgstr "전력 반넬"
 msgid "Tags (example: +Linux -Development)"
 msgstr "꼬리표 (예: +리눅스 -개발)"
 
-#: openDCIM/report_panel_schedule.php:15 openDCIM/reports.php:68
+#: openDCIM/report_panel_schedule.php:15 openDCIM/reports.php:67
 msgid "Power Panel Schedule Report"
 msgstr "전력 판넬 일정 보고"
 
@@ -4562,27 +4562,27 @@ msgstr "공급사/모델 보고"
 msgid "Operational Reports"
 msgstr "운용 보고"
 
-#: openDCIM/reports.php:63
+#: openDCIM/reports.php:62
 msgid "Diverse Power Exceptions Report"
 msgstr "다양한 전력 예외 보고"
 
-#: openDCIM/reports.php:64
+#: openDCIM/reports.php:63
 msgid "Simulated Power Outage Report"
 msgstr "모의된 전력 정전 보고"
 
-#: openDCIM/reports.php:65
+#: openDCIM/reports.php:64
 msgid "Project Power Outage Report"
 msgstr "프로젝트 전력 정전 보고"
 
-#: openDCIM/reports.php:67
+#: openDCIM/reports.php:66
 msgid "Server Tier Classification Report"
 msgstr "서버 등급 인증 보고"
 
-#: openDCIM/reports.php:69
+#: openDCIM/reports.php:68
 msgid "Cabinet List"
 msgstr "보관함 목록"
 
-#: openDCIM/reports.php:70
+#: openDCIM/reports.php:69
 msgid "Sensor List"
 msgstr "센서 목록"
 
@@ -4970,83 +4970,100 @@ msgstr "사용자"
 msgid "New User"
 msgstr "신규 사용자"
 
-#: openDCIM/usermgr.php:239
+#: openDCIM/usermgr.php:260
 msgid "This user is the primary contact for this many devices"
 msgstr "해당 사용자는 이 많은 장치의 기본 연락처입니다"
 
-#: openDCIM/configuration.php:2438 openDCIM/usermgr.php:246
+#: openDCIM/configuration.php:2438 openDCIM/usermgr.php:267
 msgid "Last Name"
 msgstr "성"
 
-#: openDCIM/usermgr.php:250
+#: openDCIM/usermgr.php:271
 msgid "First Name"
 msgstr "이름"
 
-#: openDCIM/usermgr.php:254
+#: openDCIM/usermgr.php:275
 msgid "Phone 1"
 msgstr "전화 1"
 
-#: openDCIM/usermgr.php:258
+#: openDCIM/usermgr.php:279
 msgid "Phone 2"
 msgstr "전화 2"
 
-#: openDCIM/usermgr.php:262
+#: openDCIM/usermgr.php:284
 msgid "Phone 3"
 msgstr "전화 3"
 
-#: openDCIM/usermgr.php:266
+#: openDCIM/usermgr.php:288
+msgid "Country"
+msgstr "국가"
+
+#: openDCIM/usermgr.php:305
 msgid "Email Address"
 msgstr "전자우편 주소"
 
-#: openDCIM/usermgr.php:274
+
+#: openDCIM/usermgr.php:308
+msgid "Last Activity"
+msgstr "최근 활동"
+
+#: openDCIM/usermgr.php:312
+msgid "Expiration Date"
+msgstr "만료 날짜"
+
+#: openDCIM/usermgr.php:321
 msgid "Generate New Key"
 msgstr "신규 키 만들기"
 
-#: openDCIM/usermgr.php:278
+#: openDCIM/usermgr.php:325
 msgid "Rights"
 msgstr "권한"
 
-#: openDCIM/usermgr.php:280
+#: openDCIM/usermgr.php:326
 msgid "Admin Own Devices"
 msgstr "관리 소유 장치"
 
-#: openDCIM/usermgr.php:281
+#: openDCIM/usermgr.php:328
 msgid "Read/Report Access (Global)"
 msgstr "접근 읽기/보고 (전역)"
 
-#: openDCIM/usermgr.php:282
+#: openDCIM/usermgr.php:328
 msgid "Modify/Enter Devices (Global)"
 msgstr "장치 수정/입력 (전역)"
 
-#: openDCIM/usermgr.php:283
+#: openDCIM/usermgr.php:329
 msgid "Delete Devices (Global)"
 msgstr "장치 삭제 (전역)"
 
-#: openDCIM/usermgr.php:284
-msgid "Enter/Modyfy contacts and Departments"
+#: openDCIM/usermgr.php:330
+msgid "Enter/Modify Contacts and Departments"
 msgstr "연락처 및 수버 입력/수정"
 
-#: openDCIM/usermgr.php:285
+#: openDCIM/usermgr.php:331
 msgid "Enter Rack Requests"
 msgstr "랙 요청 입력"
 
-#: openDCIM/usermgr.php:286
+#: openDCIM/usermgr.php:332
 msgid "Complete Rack Requests"
 msgstr "랙 요청 완료"
 
-#: openDCIM/usermgr.php:287
+#: openDCIM/usermgr.php:333
 msgid "Perform Bulk Operations"
 msgstr "대량 동작 수행"
 
-#: openDCIM/usermgr.php:288
+#: openDCIM/usermgr.php:334
 msgid "Manage Site and Users"
 msgstr "사이트 및 사용자 관리"
 
-#: openDCIM/usermgr_new.php:368 openDCIM/usermgr.php:295
+#: openDCIM/usermgr_new.php:368 openDCIM/usermgr.php:342
 msgid "Transfer Devices"
 msgstr "장치 전달"
 
-#: openDCIM/usermgr_new.php:391 openDCIM/usermgr.php:318
+#: openDCIM/usermgr_new.php:368 openDCIM/usermgr.php:342
+msgid "Delete User"
+msgstr "사용자 삭제"
+
+#: openDCIM/usermgr_new.php:391 openDCIM/usermgr.php:365
 msgid "Transfer all devices to another primary contact"
 msgstr "모든 장치를 다른 기본 연락처로 전달합니다"
 
@@ -5391,7 +5408,7 @@ msgstr "장치 템플릿트 슬롯 생성이 실패했습니다"
 msgid "Manufacturer not created: "
 msgstr "제조사가 생성되지 않았습니다: "
 
-#: openDCIM/api/v1/postRoutes.php:44
+#: openDCIM/api/v1/postRoutes.php:44 openDCIM/usermgr.php:263
 msgid "UserID="
 msgstr "사용자ID="
 
