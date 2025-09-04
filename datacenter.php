@@ -280,7 +280,7 @@ echo '	</select></div>
    <div><input class="validate[optional,minSize[1],maxSize[200]]" type="text" name="deliveryaddress" id="deliveryaddress" size="60" maxlength="200" value="',$dc->DeliveryAddress,'"></div>
 </div>
 <div>
-   <div><label for="Country">',__("국가"),'</label></div>
+   <div><label for="Country">',__("Country"),'</label></div>
    <div>';
 	if ( $forceCountry == "" ) {
 		print '<select name="countryCode" id="countryCode">';
