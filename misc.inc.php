@@ -1246,7 +1246,7 @@ function pdo_debugParams($stmt) {
 }
 
 function myThoughts() {
-	return __("Putin khuylo!");
+	return __("If I think I can do it, I just start. That's it!");
 }
 
 class JobQueue {
