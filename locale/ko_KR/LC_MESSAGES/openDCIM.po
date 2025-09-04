@@ -579,7 +579,7 @@ msgstr "아니요"
 
 #: openDCIM/cabnavigator.php:52 openDCIM/devices.php:1827
 msgid "Install Date"
-msgstr "설치 날짜"
+msgstr "설치일"
 
 #: openDCIM/cabnavigator.php:64 openDCIM/cabrow.php:148
 #: openDCIM/dc_stats.php:318 openDCIM/rowview.php:92
@@ -1359,7 +1359,7 @@ msgstr "시설 관리자 전자우편"
 #: openDCIM/configuration.php:2187 openDCIM/report_cost.php:397
 #: openDCIM/report_cost.php:400
 msgid "Annual Cost Per Rack Unit (Year)"
-msgstr "랙 단위당 연간 비용 (연간)"
+msgstr "랙 단위당 연간비용(연간)"
 
 #: openDCIM/configuration.php:2191
 msgid "Cost Per KwHr"
@@ -1993,7 +1993,7 @@ msgstr "부하 전력에서 BTU 설계"
 #: openDCIM/dc_dashboard.php:141 openDCIM/dc_stats.php:257
 #: openDCIM/zone_stats.php:254
 msgid "Minimum Cooling Tonnage (Based on Computed Watts)"
-msgstr "최소 냉각 톤 (부하 전력 기반)"
+msgstr "최소 냉각 톤수(설계 전력 기반)"
 
 #: openDCIM/dc_stats.php:166
 msgid "openDCIM Data Center Information Management"
@@ -2035,11 +2035,11 @@ msgstr "%"
 
 #: openDCIM/dc_stats.php:269 openDCIM/zone_stats.php:266
 msgid "RCI Low Percentage (Overcooling)"
-msgstr "RCI 저비율 (과냉각)"
+msgstr "RCI 저비율(과냉각)"
 
 #: openDCIM/dc_stats.php:276 openDCIM/zone_stats.php:273
 msgid "RCI High Percentage (Cabinets Satisfied)"
-msgstr "RCI 고비율 (보관함 충족됨)"
+msgstr "RCI 고비율(보관함 충족됨)"
 
 #: openDCIM/dc_stats.php:292 openDCIM/zone_stats.php:288
 #: openDCIM/scripts/ajax_tooltip.php:156
@@ -2305,7 +2305,7 @@ msgstr "소유자"
 #: openDCIM/devices.php:934 openDCIM/vmnamecheck.php:43
 #: openDCIM/vmnamecheck.php:81
 msgid "Last Updated"
-msgstr "마지막 최신화"
+msgstr "최근 최신화"
 
 #: openDCIM/devices.php:942 penDCIM/devices.php:950
 #: openDCIM/report_exception.php:158 openDCIM/vmnamecheck.php:53
@@ -2356,7 +2356,7 @@ msgstr "바코드 검사"
 #: openDCIM/devices.php:1817 openDCIM/search_export.php:141
 #: openDCIM/search_export_storage_room.php:55
 msgid "Primary IP / Host Name"
-msgstr "기본 IP / 호스트 이름"
+msgstr "기본IP/호스트명"
 
 #: openDCIM/devices.php:1831
 msgid "Warranty Company"
@@ -2442,7 +2442,7 @@ msgstr "슬롯 수"
 
 #: openDCIM/devices.php:1982 openDCIM/search_export.php:150
 msgid "Half Depth"
-msgstr "절반 깊이"
+msgstr "반 깊이"
 
 #: openDCIM/devices.php:1987 openDCIM/search_export.php:151
 msgid "Back Side"
@@ -2526,7 +2526,7 @@ msgstr "검사는 3회 연속 실패 후에 비활성화됩니다."
 
 #: openDCIM/devices.php:2152
 msgid "Power Specifications"
-msgstr "전력 상세"
+msgstr "전력 사양"
 
 #: openDCIM/devices.php:2155
 msgid "Source Panel"
@@ -2542,7 +2542,7 @@ msgstr "전압:"
 
 #: openDCIM/devices.php:2190
 msgid "Breaker Size (# of Poles)"
-msgstr "차단기 크기 (# 극)"
+msgstr "차단기 크기(# 극)"
 
 #: openDCIM/devices.php:2204
 msgid "Panel Pole Number"
@@ -2582,11 +2582,11 @@ msgstr "이중 안전 장치 스위치?"
 
 #: openDCIM/devices.php:2251
 msgid "Source Panel (Secondary Source)"
-msgstr "공급 판넬 (예비 공급)"
+msgstr "공급 판넬(예비 공급)"
 
 #: openDCIM/devices.php:2266
 msgid "Panel Pole Number (Secondary Source)"
-msgstr "판넬 폴 수 (예비 공급)"
+msgstr "판넬 폴 수(예비 공급)"
 
 #: openDCIM/devices.php:2275
 msgid "Switch SNMP"
@@ -2646,11 +2646,11 @@ msgstr "당신은 장치를 추가하기 전에 샷시에 얼마나 많은 슬�
 
 #: openDCIM/devices.php:2343
 msgid "Hypervisor Server Information"
-msgstr "하이퍼바이저 서버 정보"
+msgstr "가상 서버 정보"
 
 #: openDCIM/devices.php:2349 openDCIM/search_export.php:152
 msgid "Hypervisor"
-msgstr "하이퍼바이저"
+msgstr "가상"
 
 #: openDCIM/devices.php:2375
 msgid "Limit device type selection to"
@@ -2936,7 +2936,7 @@ msgstr "설명"
 
 #: openDCIM/disposition.php:98
 msgid "Reference Number (Contract)"
-msgstr "참조 번호 (연락처)"
+msgstr "참조 번호(연락처)"
 
 #: openDCIM/disposition.php:112
 msgid "You must always have at least one Active disposal method."
@@ -3061,7 +3061,7 @@ msgstr "비밀번호:"
 
 #: openDCIM/login_ldap.php:126
 msgid "Unable to bind to specified LDAP server with specified username/password.  Username:"
-msgstr "Unable to bind to specified LDAP server with specified username/password.  Username:"
+msgstr "지정된 사용자이름/비밀번호로 지정된 LDAP 서버로 바인드 할 수 없습니다. 사용자이름:"
 
 #: openDCIM/login_ldap.php:73
 msgid "LDAP authentication successful, granted site access based on required group membership.  Username:"
@@ -3516,7 +3516,7 @@ msgstr "CDU/미터 템플릿트"
 
 #: openDCIM/power_panel.php:330
 msgid "Data Center (for Mapping)"
-msgstr "데이터 센터 (대응용)"
+msgstr "데이터 센터(대응용)"
 
 #: openDCIM/power_panel.php:367
 msgid "Panel Schedule"
@@ -3695,7 +3695,7 @@ msgstr "빨강"
 
 #: openDCIM/rackrequest.php:407
 msgid "Hypervisor?"
-msgstr "하이퍼바이저?"
+msgstr "가상?"
 
 #: openDCIM/rackrequest.php:436
 msgid "Select a template"
@@ -3819,7 +3819,7 @@ msgstr "● 하위 장치용 \"위치\"는 상위 장치 내에 슬롯 위치입
 
 #: openDCIM/report_asset_Excel.php:188
 msgid "● \"Half Depth\" contains a value \"front\" or \"rear\" only if the device is of half depth in which case this indicates the location."
-msgstr "● \"절반 깊이\"는 만약 장치가 위치에 표시된 경우에 절반 깊이일 때만 값 \"전면\" 또는 \"후면\"만 포함합니다."
+msgstr "● \"반 깊이\"는 만약 장치가 위치에 표시된 경우에 반 깊이일 때만 값 \"전면\" 또는 \"후면\"만 포함합니다."
 
 #: openDCIM/report_asset_Excel.php:191
 msgid "● Consecutive free rack space is indicated in worksheet \"DC Inventory\" with the string \"__EMPTY \" in column \"Device\". \"Position\" gives the start of the range and \"Height\" specifies the size of the range of free rack space."
@@ -4347,7 +4347,7 @@ msgstr "전력 공급"
 #: openDCIM/report_panel_schedule.php:72 openDCIM/report_panel_schedule.php:172
 #: openDCIM/report_project_outage_simulator.php:74
 msgid "Power Panel"
-msgstr "전력 반넬"
+msgstr "전력 판넬"
 
 #: openDCIM/report_outage_simulator.php:89
 #: openDCIM/report_project_outage_simulator.php:90
@@ -5001,7 +5001,6 @@ msgstr "국가"
 msgid "Email Address"
 msgstr "전자우편 주소"
 
-
 #: openDCIM/usermgr.php:308
 msgid "Last Activity"
 msgstr "최근 활동"
@@ -5024,15 +5023,15 @@ msgstr "관리 소유 장치"
 
 #: openDCIM/usermgr.php:328
 msgid "Read/Report Access (Global)"
-msgstr "접근 읽기/보고 (전역)"
+msgstr "접근 읽기/보고(전역)"
 
 #: openDCIM/usermgr.php:328
 msgid "Modify/Enter Devices (Global)"
-msgstr "장치 수정/입력 (전역)"
+msgstr "장치 수정/입력(전역)"
 
 #: openDCIM/usermgr.php:329
 msgid "Delete Devices (Global)"
-msgstr "장치 삭제 (전역)"
+msgstr "장치 삭제(전역)"
 
 #: openDCIM/usermgr.php:330
 msgid "Enter/Modify Contacts and Departments"
@@ -5202,7 +5201,7 @@ msgstr "지역 통계"
 
 #: openDCIM/zone_stats.php:242
 msgid "Zone Size (approximate)"
-msgstr "지역 크기 (추정)"
+msgstr "지역 크기(추정)"
 
 #: openDCIM/zone_stats.php:246
 msgid "approximate"
@@ -5496,7 +5495,7 @@ msgstr "어떤 파일도 올려져 있지 않습니다"
 
 #: openDCIM/scripts/uploadifive.php:104
 msgid "Missing a temporary folder"
-msgstr "찾을 없는 임시 폴더"
+msgstr "찾을 수 없는 임시 폴더"
 
 #: openDCIM/scripts/uploadifive.php:107
 msgid "Failed to write file to disk"
@@ -5670,7 +5669,7 @@ msgstr "로컬/사용자정의 보고용 상대 경로"
 
 #: openDCIM/configuration.php:1808
 msgid "Log Retention (Days)"
-msgstr "기록 보존 (일)"
+msgstr "기록 보존(일)"
 
 #: openDCIM/configuration.php:1917
 msgid "Expirations"
@@ -5678,11 +5677,11 @@ msgstr "만료"
 
 #: openDCIM/configuration.php:1920
 msgid "Unseen Virtual Machines (Days)"
-msgstr "볼 수 없는 가상 장비 (일)"
+msgstr "볼 수 없는 가상 장비(일)"
 
 #: openDCIM/configuration.php:1923
 msgid "Uninstalled Reservations (Days)"
-msgstr "설치되지 않은 예약 (일)"
+msgstr "설치되지 않은 예약(일)"
 
 #: openDCIM/configuration.php:2076
 msgid "Which Cabinet Label?"
@@ -5746,7 +5745,7 @@ msgstr "SAML SP 정보 및 인증서 생성"
 
 #: openDCIM/configuration.php:2586
 msgid "Country (2 Character)"
-msgstr "국가 (2 문자)"
+msgstr "국가(2 문자)"
 
 #: openDCIM/configuration.php:2590
 msgid "State or Province"
@@ -5862,7 +5861,7 @@ msgstr "지역으로 되돌리기"
 
 #: openDCIM/search_export.php:153
 msgid "Last Modification Time"
-msgstr "최종 수정 시간"
+msgstr "최종 수정시간"
 
 #: openDCIM/search_export.php:154
 msgid "Last Modified By"
@@ -5894,7 +5893,7 @@ msgstr "VM목록에서 VM 제거 중 오류."
 
 #: openDCIM/api/v1/deleteRoutes.php:298
 msgid "Invalid parameter (days)"
-msgstr "잘못된 매개변수 (일)"
+msgstr "잘못된 매개변수(일)"
 
 #: openDCIM/api/v1/deleteRoutes.php:326
 msgid "Error removing Powerpanel with PanelID "
@@ -6096,11 +6095,11 @@ msgstr "콘센트 수"
 
 #: openDCIM/cdu_templates.php:158 openDCIM/device_templates.php:1003
 msgid "Outlet State (On/Off)"
-msgstr "콘센트 상태 (켜기/끄기)"
+msgstr "콘센트 상태(켜기/끄기)"
 
 #: openDCIM/cdu_templates.php:162 openDCIM/device_templates.php:1007
 msgid "Outlet State (On)"
-msgstr "콘센트 상태 (켜기)"
+msgstr "콘센트 상태(켜기)"
 
 #: openDCIM/configuration.php:1761
 msgid "OIDC/LDAP"
@@ -6151,6 +6150,6 @@ msgstr "포트 최신화에 실패함"
 msgid "Test Email from openDCIM"
 msgstr "openDCIM에서 전자우편 시험"
 
-#: openDCIM/misc.inc.php:1227
-msgid "Raise Power"
-msgstr "힘을 냅시다!"
+#: openDCIM/misc.inc.php:1249
+msgid "If I think I can do it, I just start. That's it!"
+msgstr "할 수 있다고 생각하면 시작하자. 그 뿐이다!"
