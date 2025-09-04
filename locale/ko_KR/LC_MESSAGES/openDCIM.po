@@ -3515,9 +3515,8 @@ msgid "CDU/Meter Template"
 msgstr "CDU/미터 템플릿트"
 
 #: openDCIM/power_panel.php:330
-#, fuzzy
 msgid "Data Center (for Mapping)"
-msgstr "데이터 센터"
+msgstr "데이터 센터 (대응용)"
 
 #: openDCIM/power_panel.php:367
 msgid "Panel Schedule"
@@ -4772,7 +4771,7 @@ msgstr "뒷면 보기"
 #: openDCIM/power_panel.php:434 openDCIM/rowview.php:180
 #: openDCIM/zone_stats.php:340
 msgid "Return to"
-msgstr "로 돌아가기"
+msgstr "돌아가기"
 
 #: openDCIM/search_export.php:5
 msgid "Data Center View/Export"
@@ -4994,7 +4993,7 @@ msgstr "전화 2"
 msgid "Phone 3"
 msgstr "전화 3"
 
-#: openDCIM/usermgr.php:288
+#: openDCIM/usermgr.php:288 openDCIM/datacenter.php:283
 msgid "Country"
 msgstr "국가"
 
