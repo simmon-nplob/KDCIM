@@ -2129,7 +2129,7 @@ echo '<div class="main">
 					</div>
 				</div>
 				<div>
-					<div><label for="GDPRPIIPrivacy">',__("GPDR PII Policy"),'</label></div>
+					<div><label for="GDPRPIIPrivacy">',__("GPDR PII Privacy"),'</label></div>
 					<div><select id="GDPRPIIPrivacy" name="GDPRPIIPrivacy" defaultvalue="',$config->defaults["GDPRPIIPrivacy"],'" data="',$config->ParameterArray["GDPRPIIPrivacy"],'">
 							<option value="disabled">',__("Disabled"),'</option>
 							<option value="enabled">',__("Enabled"),'</option>
@@ -2649,7 +2649,7 @@ echo '<div class="main">
 				$validFrom = date('Y-m-d H:i:s', $data['validFrom_time_t']);
 				$validTo = date('Y-m-d H:i:s', $data['validTo_time_t']);
 			} else {
-				$validTo = "No Certificatte";
+				$validTo = "No Certificate";
 			}	
 
 			echo '<div>
