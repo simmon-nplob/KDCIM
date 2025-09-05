@@ -6118,7 +6118,6 @@ msgid "OIDC Connection Configuration"
 msgstr "OIDC 연결 구성"
 
 #: openDCIM/configuration.php:2555
-#, fuzzy
 msgid "OIDC Authorization Endpoint"
 msgstr "OIDC 권한 종료점"
 
@@ -6129,6 +6128,10 @@ msgstr "OIDC 고객 ID"
 #: openDCIM/configuration.php:2563
 msgid "OIDC Client Secret"
 msgstr "OIDC 고객 비밀"
+
+#: openDCIM/configuration.php:2567
+msgid "OIDC UserID Attribute"
+msgstr "OIDC 사용자ID 속성"
 
 #: openDCIM/devices.php:2171
 msgid "Goto Panel"
