@@ -1681,11 +1681,11 @@ msgstr "인증서 지문 알고리즘"
 
 #: openDCIM/configuration.php:2655
 msgid "SAML Account Configuration"
-msgstr "SAML 게정 구성"
+msgstr "SAML 계정 구성"
 
 #: openDCIM/configuration.php:2658
 msgid "Remove Account Prefix"
-msgstr "게정 접두사 제거"
+msgstr "계정 접두사 제거"
 
 #: openDCIM/configuration.php:2662
 msgid "Remove Account Suffix"
@@ -5725,7 +5725,7 @@ msgstr "그룹 매핑"
 
 #: openDCIM/configuration.php:2461
 msgid "SAML Attribute containing Groups"
-msgstr "그룹을 포함하는 SAML 속성"
+msgstr "그룹을 포함한 SAML 속성"
 
 #: openDCIM/configuration.php:2534
 msgid "Leave blank for Active Directory"
