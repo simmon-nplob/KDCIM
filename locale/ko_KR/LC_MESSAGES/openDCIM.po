@@ -124,7 +124,7 @@ msgstr "가져 오기 파일의 다음 값은 진행하기 전에 openDCIM에 �
 #: openDCIM/zone.php:138 openDCIM/classes/Device.class.php:2518
 #: openDCIM/classes/PowerDistribution.class.php:533
 msgid "Data Center"
-msgstr "데이터 센터"
+msgstr "데이타 센타"
 
 #: openDCIM/bulk_importer.php:224 openDCIM/bulk_moves.php:231
 #: openDCIM/cabinets.php:246 openDCIM/dc_stats.php:310
@@ -413,7 +413,7 @@ msgstr "신규 보관함"
 #: openDCIM/report_supply_status.php:105 openDCIM/search_export.php:135
 #: openDCIM/supplybin.php:159
 msgid "Location"
-msgstr "위치"
+msgstr "장소"
 
 #: openDCIM/cabinets.php:276
 msgid "Assigned To"
