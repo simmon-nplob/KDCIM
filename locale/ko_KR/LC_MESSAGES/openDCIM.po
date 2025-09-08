@@ -111,13 +111,12 @@ msgstr "가져 오기 파일의 다음 값은 진행하기 전에 openDCIM에 �
 #: openDCIM/bulk_importer.php:213 openDCIM/cabinets.php:258
 #: openDCIM/cabnavigator.php:51 openDCIM/cabrow.php:166
 #: openDCIM/pathmaker.php:496 openDCIM/pathmaker.php:508 openDCIM/paths.php:605
-#: openDCIM/search_export.php:149 openDCIM/search_export.php:134
 #: openDCIM/zone.php:138 openDCIM/classes/Device.class.php:2613
 #: openDCIM/classes/PowerDistribution.class.php:533
 msgid "data center"
 msgstr "데이타 센타"
 
-#: openDCIM/report_cabinets.php:70
+#: openDCIM/report_cabinets.php:70 openDCIM/search_export.php:149
 #: openDCIM/report_diverse_power_exceptions.php:163
 #: openDCIM/report_network_map.php:624 openDCIM/report_outage_simulator.php:45
 #: openDCIM/report_panel_schedule.php:52 openDCIM/report_panel_schedule.php:170
@@ -358,7 +357,6 @@ msgstr "AssetTag"
 
 #: openDCIM/connections_spreadsheet.php:58
 #: openDCIM/devices.php:1977 openDCIM/rackrequest.php:471
-#: openDCIM/search_export.php:151 openDCIM/search_export_storage_room.php:65
 #: openDCIM/workorder.php:156
 msgid "position"
 msgstr "위치"
@@ -369,7 +367,7 @@ msgstr "위치"
 #: openDCIM/report_exception.php:165 openDCIM/report_exception.php:235
 #: openDCIM/report_power_utilization.php:167
 #: openDCIM/report_project_outage_simulator.php:352
-#: openDCIM/search_export.php:136
+#: openDCIM/search_export.php:151 openDCIM/search_export_storage_room.php:64
 msgid "Position"
 msgstr "Position"
 
@@ -441,13 +439,13 @@ msgid "New Cabinet"
 msgstr "신규 보관함"
 
 #: openDCIM/cabinets.php:272 openDCIM/configuration.php:2083
-#: openDCIM/search_export.php:150 openDCIM/supplybin.php:159
+#: openDCIM/supplybin.php:159
 msgid "location"
 msgstr "장소"
 
 #: openDCIM/report_diverse_power_exceptions.php:167  
 #: openDCIM/report_supply_status.php:105 
-#: openDCIM/report_sensors.php:24
+#: openDCIM/report_sensors.php:24 openDCIM/search_export.php:150
 msgid "Location"
 msgstr "Location"
 
@@ -519,10 +517,14 @@ msgid "Date of Installation"
 msgstr "설치 날짜"
 
 #: openDCIM/cabinets.php:335 openDCIM/cabnavigator.php:66
-#: openDCIM/devices.php:1910 openDCIM/search_export.php:144
-#: openDCIM/search_export_storage_room.php:58
+#: openDCIM/devices.php:1910
 msgid "Tags"
 msgstr "꼬리표"
+
+#: openDCIM/search_export.php:144
+#: openDCIM/search_export_storage_room.php:73
+msgid "tags"
+msgstr "Tags"
 
 #: openDCIM/cabinets.php:341 openDCIM/conflicts.php:608
 #: openDCIM/connections_spreadsheet.php:23 openDCIM/devices.php:1145
@@ -806,14 +808,14 @@ msgstr "신규 행"
 #: openDCIM/cabrow.php:162 openDCIM/container.php:241
 #: openDCIM/datacenter.php:252 openDCIM/device_manufacturers.php:193
 #: openDCIM/disposition.php:90 
-#: openDCIM/search_export.php:138 openDCIM/search_export_storage_room.php:52
 #: openDCIM/scripts/ajax_tooltip.php:218 openDCIM/scripts/ajax_tooltip.php:225
 msgid "Name"
 msgstr "이름"
 
 #: openDCIM/report_surplus.php:134
+#: openDCIM/search_export.php:138 openDCIM/search_export_storage_room.php:67
 msgid "name"
-msgstr "이름"
+msgstr "Name"
 
 #: openDCIM/cabrow.php:178
 msgid "Data Center Zone"
@@ -824,9 +826,12 @@ msgid "Data Center Cabinet Distribution Unit Templates"
 msgstr "데이타 센타 보관함 배전 장치 템플릿트"
 
 #: openDCIM/cdu_templates.php:87 openDCIM/device_templates.php:736
-#: openDCIM/search_export.php:143 openDCIM/search_export_storage_room.php:57
 msgid "Template"
 msgstr "템플릿트"
+
+#: openDCIM/search_export.php:143 openDCIM/search_export_storage_room.php:57
+msgid "template"
+msgstr "Template"
 
 #: openDCIM/cdu_templates.php:89 openDCIM/device_templates.php:738
 msgid "New Template"
@@ -1829,26 +1834,26 @@ msgid "Device Label"
 msgstr "장치 이름표"
 
 #: openDCIM/connections_spreadsheet.php:52 openDCIM/devices.php:1830
-#: openDCIM/rackrequest.php:368  openDCIM/search_export.php:154
-#: openDCIM/search_export_storage_room.php:68 openDCIM/sidebar.inc.php:20
+#: openDCIM/rackrequest.php:368 openDCIM/sidebar.inc.php:20
 msgid "serial number"
 msgstr "일련 번호"
 
-#: openDCIM/report_asset.php:54
+#: openDCIM/report_asset.php:54 openDCIM/search_export_storage_room.php:68
 #: openDCIM/report_contact.php:485 openDCIM/report_cost.php:469
 #: openDCIM/report_exception.php:165 openDCIM/report_exception.php:235
+#: openDCIM/search_export.php:154
 msgid "Serial Number"
 msgstr "Serial Number"
 
 #: openDCIM/connections_spreadsheet.php:54 openDCIM/devices.php:1835
 #: openDCIM/rackrequest.php:376 openDCIM/search_export.php:155
-#: openDCIM/search_export_storage_room.php:69
 #: openDCIM/sidebar.inc.php:21 openDCIM/storageroom.php:77
 msgid "asset tag"
 msgstr "자산 꼬리표"
 
-#: openDCIM/report_asset.php:54
+#: openDCIM/report_asset.php:54  openDCIM/search_export_storage_room.php:69
 #: openDCIM/report_contact.php:485 openDCIM/report_cost.php:469
+#: openDCIM/search_export.php:155
 msgid "Asset Tag"
 msgstr "Asset Tag"
 
@@ -2389,7 +2394,6 @@ msgid "Status"
 msgstr "상태"
 
 #: openDCIM/devices.php:934 openDCIM/search_export.php:160
-#: openDCIM/search_export_storage_room.php:74
 #: openDCIM/sidebar.inc.php:22 openDCIM/scripts/ajax_tooltip.php:153
 msgid "owner"
 msgstr "소유자"
@@ -2401,18 +2405,21 @@ msgstr "소유자"
 #: openDCIM/report_warranty.php:439 openDCIM/report_warranty.php:472
 #: openDCIM/search_export.php:145 openDCIM/search_export_storage_room.php:59
 #: openDCIM/sidebar.inc.php:22 openDCIM/scripts/ajax_tooltip.php:153
+#: openDCIM/search_export_storage_room.php:74
 msgid "Owner"
 msgstr "Owner"
-
 
 #: openDCIM/devices.php:934 openDCIM/vmnamecheck.php:43
 #: openDCIM/vmnamecheck.php:81
 msgid "Last Updated"
 msgstr "최근 최신화"
 
+#: openDCIM/report_exception.php:158
+msgid "unknown"
+msgstr "Unknown"
+
 #: openDCIM/devices.php:942 penDCIM/devices.php:950
-#: openDCIM/report_exception.php:158 openDCIM/vmnamecheck.php:53
-#: openDCIM/vmnamecheck.php:91
+#: openDCIM/vmnamecheck.php:53 openDCIM/vmnamecheck.php:91
 msgid "Unknown"
 msgstr "알 수 없음"
 
@@ -2456,23 +2463,30 @@ msgstr "장치 ID"
 msgid "Scan Barcode"
 msgstr "바코드 검사"
 
-#: openDCIM/devices.php:1817 openDCIM/search_export.php:141
-#: openDCIM/search_export_storage_room.php:55
+#: openDCIM/devices.php:1817
 msgid "Primary IP / Host Name"
 msgstr "기본IP/호스트명"
+
+#: openDCIM/search_export.php:141 openDCIM/search_export_storage_room.php:55
+msgid "primary IP / host name"
+msgstr "Primary IP / Host Name"
 
 #: openDCIM/devices.php:1831
 msgid "Warranty Company"
 msgstr "보증 기업"
 
-#: openDCIM/devices.php:1835 openDCIM/search_export.php:147
-#: openDCIM/search_export_storage_room.php:61
+#: openDCIM/devices.php:1835
 msgid "Warranty Expiration"
 msgstr "보증 만료"
 
+#: openDCIM/search_export.php:147
+#: openDCIM/search_export_storage_room.php:61
+msgid "warranty expiration"
+msgstr "Warranty Expiration"
+
 #: openDCIM/search_export.php:149
 msgid "Device Status"
-msgstr "장치 상태"
+msgstr "Device Status"
 
 #: openDCIM/devices.php:1839
 msgid "Last Audit Completed"
@@ -2535,21 +2549,33 @@ msgstr "템플릿트 선택..."
 
 #: openDCIM/devices.php:1970 openDCIM/devices.php:2308
 #: openDCIM/device_templates.php:764 openDCIM/rackrequest.php:453
-#: openDCIM/search_export.php:137 openDCIM/search_export_storage_room.php:51
 msgid "Height"
 msgstr "높이"
+
+#: openDCIM/search_export.php:137 openDCIM/search_export_storage_room.php:66
+msgid "height"
+msgstr "Height"
+
 
 #: openDCIM/devices.php:1970
 msgid "Number of slots"
 msgstr "슬롯 수"
 
-#: openDCIM/devices.php:1982 openDCIM/search_export.php:150
+#: openDCIM/devices.php:1982
 msgid "Half Depth"
 msgstr "반 깊이"
+
+#: openDCIM/search_export.php:150
+msgid "Half depth"
+msgstr "Half Depth"
 
 #: openDCIM/devices.php:1987 openDCIM/search_export.php:151
 msgid "Back Side"
 msgstr "후 면"
+
+#: openDCIM/search_export.php:166
+msgid "Back side"
+msgstr "Back side"
 
 #: openDCIM/devices.php:1991
 msgid "Number of Data Ports"
@@ -2573,11 +2599,11 @@ msgstr "샷시 총 하중"
 
 #: openDCIM/devices.php:2024 openDCIM/devices.php:2310
 #: openDCIM/device_templates.php:776 openDCIM/rackrequest.php:474
-#: openDCIM/search_export.php:142 openDCIM/search_export_storage_room.php:56
 msgid "Device Type"
 msgstr "장치 유형"
 
 #: openDCIM/report_vendor_model.php:53
+#: openDCIM/search_export.php:142 openDCIM/search_export_storage_room.php:56
 msgid "Device type"
 msgstr "Device Type"
 
@@ -2761,6 +2787,10 @@ msgstr "가상 서버 정보"
 #: openDCIM/devices.php:2349 openDCIM/search_export.php:152
 msgid "Hypervisor"
 msgstr "가상"
+
+#: openDCIM/search_export.php:152
+msgid "hypervisor"
+msgstr "VitualMachine"
 
 #: openDCIM/devices.php:2375
 msgid "Limit device type selection to"
@@ -4113,11 +4143,8 @@ msgid "Times Audited"
 msgstr "Times Audited"
 
 #: openDCIM/search_export.php:148
-#: openDCIM/search_export_storage_room.php:60
-msgid "Installation Date"
-msgstr "설치 날짜"
-
 #: openDCIM/report_audit_frequency.php:242
+#: openDCIM/search_export_storage_room.php:60
 msgid "installation Date"
 msgstr "Installatoin date"
 
@@ -4415,9 +4442,13 @@ msgstr " DCIM에 예약된 총 U"
 msgid "Data Center Switch Capacity Exceptions Report"
 msgstr "데이타 센타 스위치 용량 예외 보고"
 
-#: openDCIM/report_exception.php:39 openDCIM/reports.php:61
+#: openDCIM/reports.php:61
 msgid "Data Exceptions Report"
 msgstr "자료 예외 보고"
+
+#: openDCIM/report_exception.php:39
+msgid "Data exceptions report"
+msgstr "Data Exceptions Report"
 
 #: openDCIM/report_exception.php:165 openDCIM/report_exception.php:235
 msgid "Power Cords"
@@ -4653,10 +4684,13 @@ msgstr "Actual End::"
 msgid "Total Assigned Cabinets:"
 msgstr "Total Assigned Cabinets:"
 
-#: openDCIM/report_projects.php:185 openDCIM/search_export_storage_room.php:49
 #: openDCIM/classes/DataCenter.class.php:653
 msgid "Storage Room"
 msgstr "보관실"
+
+#: openDCIM/report_projects.php:185 openDCIM/search_export_storage_room.php:64
+msgid "storage room"
+msgstr "Storage Room"
 
 #: openDCIM/report_projects.php:191
 msgid "Unspecified"
@@ -4788,11 +4822,11 @@ msgstr "잉여/잔여 감사 보고"
 
 #: openDCIM/reports.php:76 
 msgid "Supplies Status Report"
-msgstr "공급 산태 보고"
+msgstr "공급 상태 보고"
 
 #: openDCIM/report_supply_status.php:80
 msgid "supplies status report"
-msgstr "공급 상태 보고"
+msgstr "Supplies Status Report"
 
 #: openDCIM/reports.php:77
 msgid "Actions Log"
@@ -4802,24 +4836,24 @@ msgstr "동작 기록"
 msgid "Supply Status Report"
 msgstr "Supply Status Report"
 
-#: openDCIM/report_supply_status.php:84 openDCIM/supplies.php:89
+#: openDCIM/report_supply_status.php:82 openDCIM/supplies.php:89
 #: openDCIM/supplies.php:101 openDCIM/supplybin.php:176
 msgid "Part Number"
 msgstr "Part Number"
 
-#: openDCIM/report_supply_status.php:85 openDCIM/supplies.php:105
+#: openDCIM/report_supply_status.php:83 openDCIM/supplies.php:105
 msgid "Part Name"
 msgstr "Part Name"
 
-#: openDCIM/report_supply_status.php:86 openDCIM/supplies.php:109
+#: openDCIM/report_supply_status.php:84 openDCIM/supplies.php:109
 msgid "Min Qty"
 msgstr "Min Qtu"
 
-#: openDCIM/report_supply_status.php:87 openDCIM/supplies.php:113
+#: openDCIM/report_supply_status.php:85 openDCIM/supplies.php:113
 msgid "Max Qty"
 msgstr "Max Qty"
 
-#: openDCIM/report_supply_status.php:88
+#: openDCIM/report_supply_status.php:86
 msgid "On Hand"
 msgstr "On Hand"
 
@@ -6048,13 +6082,13 @@ msgstr "지역 보고"
 msgid "Return to Zone"
 msgstr "지역으로 되돌리기"
 
-#: openDCIM/search_export.php:153
+#: openDCIM/search_export.php:168
 msgid "Last Modification Time"
-msgstr "최종 수정시간"
+msgstr "Last Modification Time"
 
-#: openDCIM/search_export.php:154
+#: openDCIM/search_export.php:169
 msgid "Last Modified By"
-msgstr "최종 수정됨"
+msgstr "Last Modified By"
 
 #: openDCIM/ridebar.inc.php:11
 msgid "Custom Search"
