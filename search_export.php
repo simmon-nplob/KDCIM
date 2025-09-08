@@ -149,22 +149,22 @@
 			\t<th>".__("Data Center")."</th>
 			\t<th>".__("Location")."</th>
 			\t<th>".__("Position")."</th>
-			\t<th>".__("Height")."</th>
-			\t<th>".__("Name")."</th>
+			\t<th>".__("height")."</th>
+			\t<th>".__("name")."</th>
 			\t<th>".__("Serial Number")."</th>
 			\t<th>".__("Asset Tag")."</th>
-			\t<th>".__("Primary IP / Host Name")."</th>
-			\t<th>".__("Device Type")."</th>
-			\t<th>".__("Template")."</th>
-			\t<th>".__("Tags")."</th>
+			\t<th>".__("primary IP / host hame")."</th>
+			\t<th>".__("Device type")."</th>
+			\t<th>".__("template")."</th>
+			\t<th>".__("tags")."</th>
 			\t<th>".__("Owner")."</th>
 			\t<th>".__("Primary Contact")."</th>
-			\t<th>".__("Warranty Expiration")."</th>
+			\t<th>".__("warranty expiration")."</th>
 			\t<th>".__("Installation Date")."</th>
 			\t<th>".__("Device Status")."</th>
-			\t<th>".__("Half Depth")."</th>
-			\t<th>".__("Back Side")."</th>
-			\t<th>".__("Hypervisor")."</th>
+			\t<th>".__("Half depth")."</th>
+			\t<th>".__("Back side")."</th>
+			\t<th>".__("hypervisor")."</th>
 			\t<th>".__("Last Modification Time")."</th>
 			\t<th>".__("Last Modified By")."</th>
 			{$ca_headers}
@@ -321,8 +321,8 @@
 echo '		<div class="main">
 			<label for="datacenterid">',__("Data Center:"),'</label>
 			<select name="datacenterid" id="datacenterid">
-				<option value="">',__("Select data center"),'</option>
-				<option value="0">',__("All Data Centers"),'</option>';
+				<option value="">',__("Select data Center"),'</option>
+				<option value="0">',__("all Data Centers"),'</option>';
 foreach($dcList as $dc){print "\t\t\t\t<option value=\"$dc->DataCenterID\">$dc->Name</option>\n";} ?>
 			</select>
 			<br><br>

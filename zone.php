@@ -135,7 +135,7 @@ echo '
 						<div><input type="text" size="50" name="description" id="description" value="',$zone->Description,'"></div>
 					</div>
 					<div>
-						<div><label for="datacenterid">',__("Data Center"),'</label></div>
+						<div><label for="datacenterid">',__("data center"),'</label></div>
 						<div>
 							<select name="datacenterid" id="datacenterid">';
 

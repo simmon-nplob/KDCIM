@@ -34,7 +34,7 @@ if(!$person->ReadAccess){
 			\t<th>".__("Rack")."</th>
 			\t<th>".__("Owner")."</th>
 			\t<th>".__("Tag")."</th>
-			\t<th>".__("Notes")."</th>
+			\t<th>".__("notes")."</th>
 			</tr>\n\t</thead>\n\t<tbody>\n";
 
 		// suppressing errors for when there is a fake data set in place

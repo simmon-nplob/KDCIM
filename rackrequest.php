@@ -348,7 +348,7 @@ echo '			</select>
 
 echo '
     <div>
-		<div><label for="label">',__("Label").'</label></div>
+		<div><label for="label">',__("label").'</label></div>
 		<div><input type="text" name="label" id="label" class="validate[required,minSize[3],maxSize[50]]" size="50" value="',$req->Label,'"></div>
 	</div>
 	<div>
@@ -365,7 +365,7 @@ echo '			</select>
 		</div>
 	</div>
 	<div>
-		<div><label for="serialno">',__("Serial Number"),'</label></div>
+		<div><label for="serialno">',__("serial number"),'</label></div>
 		<div><input type="text" name="serialno" id="serialno" class="validate[required]" size="50" value="',$req->SerialNo,'"></div>
 	</div>
 	<div>
@@ -373,7 +373,7 @@ echo '			</select>
 		<div><input type="text" name="mfgdate" id="mfgdate" size="20" value="',date('Y-m-d',strtotime($req->MfgDate)),'"></div>
 	</div>
 	<div>
-		<div><label for="assettag">',__("Asset Tag"),'</label></div>
+		<div><label for="assettag">',__("asset tag"),'</label></div>
 		<div><input type="text" name="assettag" id="assettag" size="20" value="',$req->AssetTag,'"></div>
 	</div>
 	<div>
@@ -468,7 +468,7 @@ echo '			</select>
 	</div>';
 
 	if($person->RackAdmin && ($req->RequestID>0)){
-		echo '<div><div><label for="CabinetID">',__("Select Rack Location"),':</label></div><div>'.$cab->GetCabinetSelectList().'&nbsp;&nbsp;<label for="position">',__("Position"),':</label> <input type="text" name="position" id="position" size=5></div></div>';
+		echo '<div><div><label for="CabinetID">',__("Select Rack Location"),':</label></div><div>'.$cab->GetCabinetSelectList().'&nbsp;&nbsp;<label for="position">',__("position"),':</label> <input type="text" name="position" id="position" size=5></div></div>';
 	}
 ?>
 	<div class="caption">

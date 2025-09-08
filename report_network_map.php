@@ -619,11 +619,11 @@ echo '          <div class="main">
                                 <option value="">',__("Select filter type"),'</option>
                                 <option value="cabinet">',__("Cabinet"),'</option>
                                 <option value="cabinetrow">',__("Cabinet Row"),'</option>
-                                <option value="container">',__("Container"),'</option>
+                                <option value="container">',__("container"),'</option>
                                 <option value="customtag">',__("Custom Tag"),'</option>
                                 <option value="datacenter">',__("Data Center"),'</option>
                                 <option value="project">',__("Project"),'</option>
-                                <option value="zone">',__("Zone"),'</option>
+                                <option value="zone">',__("zone"),'</option>
                         </select>';?>
                         <br><br>
                         <div id="datacontainer">

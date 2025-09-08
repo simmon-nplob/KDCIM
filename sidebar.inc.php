@@ -15,11 +15,11 @@
 <label for="searchadv">',__("Advanced Search:"),'</label><br>
 <input class="search" id="searchadv" name="search"><button class="iebug" type="submit"><img src="css/searchbutton.png" alt="search"></button>
 <select name="key">
-	<option value="label">',__("Label"),'</option>
-	<option value="ctag">',__("Custom Tag"),'</option>
-	<option value="serial">',__("Serial Number"),'</option>
-	<option value="asset">',__("Asset Tag"),'</option>
-	<option value="owner">',__("Owner"),'</option>
+	<option value="label">',__("label"),'</option>
+	<option value="ctag">',__("custom tag"),'</option>
+	<option value="serial">',__("serial number"),'</option>
+	<option value="asset">',__("asset ag"),'</option>
+	<option value="owner">',__("owner"),'</option>
 	<option value="project">',__("Project"),'</option>
 	<option value="model">',__("Device Model"),'</option>
 	<option value="ip">',__("PrimaryIP"),'</option>

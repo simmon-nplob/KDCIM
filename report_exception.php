@@ -36,7 +36,7 @@ class PDF extends FPDF {
     	$this->Cell(30,20,__("Information Technology Services"),0,0,'C');
     	$this->Ln(25);
 		$this->SetFont( $this->pdfconfig->ParameterArray['PDFfont'],'',10 );
-		$this->Cell( 50, 6, __("Data Exceptions Report"), 0, 1, 'L' );
+		$this->Cell( 50, 6, __("Data exceptions eeport"), 0, 1, 'L' );
 		$this->Cell( 50, 6, __("Date").': ' . date('d F Y'), 0, 1, 'L' );
 		$this->Ln(10);
 	}
@@ -155,14 +155,14 @@ class PDF extends FPDF {
   $pdf->Bookmark( 'Unknown Owner', 1, 0 );
 
 	$pdf->SetFont( $config->ParameterArray['PDFfont'], 'B', 12 );
-	$pdf->Cell( 80, 5, __("Department").': '. __("Unknown") );
+	$pdf->Cell( 80, 5, __("Department").': '. __("unknown") );
 	$pdf->SetFont( $config->ParameterArray['PDFfont'], '', 8 );
 	$pdf->Ln();
 
 	$dev->Owner = 0;
 	$devList = $dev->GetDevicesbyOwner();
 
-	$headerTags = array( __("Device Name"), __("Serial Number"), __("From Template"), __("Power Cords"), __("DC Room"), __("Cabinet"), __("Position"), __("Rack Units") );
+	$headerTags = array( __("Device Name"), __("Serial Number"), __("From template"), __("Power Cords"), __("DC Room"), __("Cabinet"), __("Position"), __("Rack Units") );
 	$cellWidths = array( 50, 30, 20, 20, 20, 20, 20, 20 );
 	$maxval = count( $headerTags );
 
@@ -232,7 +232,7 @@ class PDF extends FPDF {
 		$devList = $dev->GetDevicesbyOwner();
 
 
-		$headerTags = array( __("Device Name"), __("Serial Number"), __("From Template"), __("Power Cords"), __("DC Room"), __("Cabinet"), __("Position"), __("Rack Units") );
+		$headerTags = array( __("Device Name"), __("Serial Number"), __("From template"), __("Power Cords"), __("DC Room"), __("Cabinet"), __("Position"), __("Rack Units") );
 		$cellWidths = array( 50, 30, 20, 20, 20, 20, 20, 20 );
 		$maxval = count( $headerTags );
 
@@ -258,9 +258,9 @@ class PDF extends FPDF {
 			}
 
       if ( $devRow->TemplateID > 0 )
-        $template = __("Yes");
+        $template = __("yes");
       else
-        $template = __("No");
+        $template = __("no");
         
 			$pdf->Cell( $cellWidths[0], 6, $devRow->Label, 'LBRT', 0, 'L', $fill );
 			$pdf->Cell( $cellWidths[1], 6, $devRow->SerialNo, 'LBRT', 0, 'L', $fill );

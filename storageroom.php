@@ -74,7 +74,7 @@
 	<div class="title" id="title">',$srname,'</div>
 	<div>
 		<div>',__("Device"),'</div>
-		<div>',__("Asset Tag"),'</div>
+		<div>',__("asset tag"),'</div>
 		<div>',__("Serial No."),'</div>
 		<div></div>
 	</div>';

@@ -15,7 +15,7 @@ if (!isset($_REQUEST['action'])){
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>openDCIM Inventory Reporting</title>
+  <title>KDCIM Inventory Reporting</title>
   <link rel="stylesheet" href="css/inventory.php" type="text/css">
   <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
   <script type="text/javascript" src="scripts/jquery.min.js"></script>
@@ -36,7 +36,7 @@ if (!isset($_REQUEST['action'])){
 ?>
 </div>
 <div class="main">
-<h2>openDCIM</h2>
+<h2>KDCIM</h2>
 <h3>정전 영향 모의시험</h3>
 <form method="post">
 <table align="center" border=0>

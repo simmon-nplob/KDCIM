@@ -218,7 +218,7 @@ echo '<div class="main">
 	<div align="right">',sprintf("%s",number_format($zoneStats["Available"])),'</div>
   </div>
   <div>
-	<div>',__("Percentage"),'</div>
+	<div>',__("percentage"),'</div>
 	<div align="right">',(($zoneStats["TotalU"])?sprintf("%s",number_format($zoneStats["Infrastructure"]/$zoneStats["TotalU"]*100,1)):"0"),'%</div>
 	<div align="right">',(($zoneStats["TotalU"])?sprintf("%s",number_format($zoneStats["Occupied"]/$zoneStats["TotalU"]*100,1)):"0"),'%</div>
 	<div align="right">',(($zoneStats["TotalU"])?sprintf("%s",number_format($zoneStats["Allocated"]/$zoneStats["TotalU"]*100,1)):"0"),'%</div>
@@ -302,7 +302,7 @@ echo '
 <ul id="options" class="hide"> 
 	<li class="ui-state-disabled">',__("Set the air intake direction"),'</li>
 	<li>----</li>
-	<li><a>',__("Cabinet"),'</a>
+	<li><a>',__("cabinet"),'</a>
 		<ul data-context="cabinet">
 			<li><a href="#Top">',__("Top"),'</a></li>
 			<li><a href="#Right">',__("Right"),'</a></li>

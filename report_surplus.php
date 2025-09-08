@@ -127,7 +127,7 @@
 			$sheet->setCellValue( "B1", __("Disposition Mechanism"));
 			$sheet->setCellValue( "A2", __("Name"));
 			$sheet->setCellValue( "B2", $disp->Name );
-			$sheet->setCellValue( "A3", __("Description"));
+			$sheet->setCellValue( "A3", __("description"));
 			$sheet->mergeCells( "B3:G3");
 			$sheet->getStyle( "B3" )->getAlignment()->setWrapText(true);
 			$sheet->setCellValue( "B3", $disp->Description );
@@ -238,11 +238,11 @@ echo '<div class="main">
 		</div>
 	</div>
 	<div>
-		<div><label for="startdate">Start Date:</label></div>
+		<div><label for="startdate">시작일:</label></div>
 		<div><input type="text" id="startdate" name="startdate"></div>
 	</div>
 	<div>
-		<div><label for="enddate">End Date:</label></div>
+		<div><label for="enddate">종료일:</label></div>
 		<div><input type="text" id="enddate" name="enddate"></div>
 	</div>
 	<div class="caption">

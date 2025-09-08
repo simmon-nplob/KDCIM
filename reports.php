@@ -43,13 +43,13 @@ echo '<div class="main">
 	<a href="search_export_storage_room.php" style="text-decoration: none;">',__("Storage Room Search/Export by Data Center"),'</a>
 	<a href="report_xml_CFD.php" style="text-decoration: none;"> ',__("Export Data Center for CFD (XML)"),'</a>
 	<a href="report_contact.php" style="text-decoration: none;">',__("Asset Report by Owner"),'</a>
-	<a href="report_asset.php" style="text-decoration: none;">',__("Data Center Asset Report"),'</a>
+	<a href="report_asset.php" style="text-decoration: none;">',__("Data Center asset report"),'</a>
     <a href="report_asset_Excel.php" style="text-decoration: none;">',__("Data Center Asset Report [Excel]"),'</a>
-	<a href="report_cost.php" style="text-decoration: none;">',__("Data Center Asset Costing Report"),'</a>
+	<a href="report_cost.php" style="text-decoration: none;">',__("data center Asset Costing Report"),'</a>
 	<a href="report_aging.php" style="text-decoration: none;">',__("Asset Aging Report"),'</a>
 	<a href="report_projects.php" style="text-decoration: none;">',__("Project Asset Report"),'</a>
     <a href="report_warranty.php" style="text-decoration: none;">',__("Warranty Expiration Report"),'</a>
-	<a href="report_vm_by_department.php" style="text-decoration: none;">',__("Virtual Machines by Department"),'</a>
+	<a href="report_vm_by_department.php" style="text-decoration: none;">',__("virtual machines by Department"),'</a>
 	<a href="report_network_map.php" style="text-decoration: none;">',__("Network Map"),'</a>
 	<a href="report_vendor_model.php" style="text-decoration: none;">', __("Vendor/Model Report"),'</a>
 </fieldset>
@@ -62,9 +62,9 @@ echo '<div class="main">
 	<a href="report_diverse_power_exceptions.php" style="text-decoration: none;">',__("Diverse Power Exceptions Report"),'</a>
 	<a href="report_outage_simulator.php" style="text-decoration: none;">',__("Simulated Power Outage Report"),'</a>
 	<a href="report_project_outage_simulator.php" style="text-decoration: none;">',__("Project Power Outage Report"),'</a>
-	<a href="report_power_distribution.php" style="text-decoration: none;">',__("Power Distribution by Data Center"),'</a>
+	<a href="report_power_distribution.php" style="text-decoration: none;">',__("Power Distribution by data center"),'</a>
 	<a href="report_power_utilization.php" style="text-decoration: none;">',__("Server Tier Classification Report"),'</a>
-    <a href="report_panel_schedule.php" style="text-decoration: none;">',__("Power Panel Schedule Report"),'</a>
+    <a href="report_panel_schedule.php" style="text-decoration: none;">',__("Power Panel schedule report"),'</a>
     <a href="report_cabinets.php" style="text-decoration: none;">',__("Cabinet List"),'</a>
     <a href="report_sensors.php" style="text-decoration: none;">',__("Sensor List"),'</a>
 </fieldset>

@@ -164,7 +164,7 @@ class PDF extends FPDF {
     $pdf->SetFont( $config->ParameterArray["PDFfont"], "", 8 );
     $pdf->Ln();
 
-  	$headerTags = array( __("Cabinet Location"), __("Device Name"), __("Dependency"), __("Position"), __("Owner") );
+  	$headerTags = array( __("Location"), __("Device Name"), __("Dependency"), __("Position"), __("Owner") );
   	$cellWidths = array( 15, 50, 30, 15, 60 );
 
   	for ( $col = 0; $col < count( $headerTags ); $col++ )

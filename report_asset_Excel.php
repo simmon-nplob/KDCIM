@@ -241,7 +241,7 @@ $DProps = array(
 		'Orientation' => \PhpOffice\PhpSpreadsheet\Worksheet\PageSetup::ORIENTATION_LANDSCAPE,
 		// Columns format is <header_title>, <format_spec>, <width>, <special_attr>
 		'Columns' => array(
-			array(__("DC Room"), '', 21, 'wrap'),
+			array(__("DC room"), '', 21, 'wrap'),
 			array(__("Floor\nSpace\n(sqm)"), '', 9, null),
 			array(__("No.\nRacks"), '', 10, null),
 			array(__("No.\nReserved\nRacks"), '', 10, null),

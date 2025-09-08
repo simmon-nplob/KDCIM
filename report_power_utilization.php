@@ -164,7 +164,7 @@ class PDF extends FPDF {
     $pdf->SetFont( $config->ParameterArray['PDFfont'], '', 8 );
     $pdf->Ln();
 
-  	$headerTags = array( __("Cabinet Location"), __("Device Name"), __("Dependency"), __("Position"), __("Owner") );
+  	$headerTags = array( __("Location"), __("Device Name"), __("Dependency"), __("Position"), __("Owner") );
   	$cellWidths = array( 15, 50, 30, 15, 60 );
 
   	$maxval = count( $headerTags );
@@ -186,11 +186,11 @@ class PDF extends FPDF {
       $devList=$dev->GetSinglePowerByCabinet();
       
       if ( sizeof( $devList ) == 0 ) {
-        $pdf->Cell( $cellWidths[0], 6, $cabRow->Location, 'LBRT', 0, 'L', $fill );
+        $pdf->Cell( $cellWidths[0], 6, $cabRow->Location, 'LBRT', 0, 'C', $fill );
         $pdf->Cell( $cellWidths[1], 6, 'None', 'LBRT', 0, 'L', $fill );
     		$pdf->Cell( $cellWidths[2], 6, '', 'LBRT', 0, 'L', $fill );
-    		$pdf->Cell( $cellWidths[3], 6, '', 'LBRT', 0, 'L', $fill );
-    		$pdf->Cell( $cellWidths[4], 6, '', 'LBRT', 1, 'L', $fill );
+    		$pdf->Cell( $cellWidths[3], 6, '', 'LBRT', 0, 'C', $fill );
+    		$pdf->Cell( $cellWidths[4], 6, '', 'LBRT', 1, 'C', $fill );
         
         $fill =! $fill;
       } else {
@@ -204,15 +204,15 @@ class PDF extends FPDF {
           }
 
 
-          $pdf->Cell( $cellWidths[0], 6, $cabRow->Location, 'LBRT', 0, 'L', $fill );
-          $pdf->Cell( $cellWidths[1], 6, $devRow->Label, 'LBRT', 0, 'L', $fill );
-          $pdf->Cell( $cellWidths[2], 6, $pan->PanelLabel, 'LBRT', 0, 'L', $fill ); 
-      		$pdf->Cell( $cellWidths[3], 6, $devRow->Position, 'LBRT', 0, 'L', $fill );
+          $pdf->Cell( $cellWidths[0], 6, $cabRow->Location, 'LBRT', 0, 'C', $fill );
+          $pdf->Cell( $cellWidths[1], 6, $devRow->Label, 'LBRT', 0, 'C', $fill );
+          $pdf->Cell( $cellWidths[2], 6, $pan->PanelLabel, 'LBRT', 0, 'C', $fill ); 
+      		$pdf->Cell( $cellWidths[3], 6, $devRow->Position, 'LBRT', 0, 'C', $fill );
       		
       		$dept->DeptID = $devRow->Owner;
       		$dept->GetDeptByID();
       		
-      		$pdf->Cell( $cellWidths[4], 6, $dept->Name, 'LBRT', 1, 'L', $fill );
+      		$pdf->Cell( $cellWidths[4], 6, $dept->Name, 'LBRT', 1, 'C', $fill );
           
           $fill =! $fill;         	
         }

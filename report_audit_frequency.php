@@ -239,7 +239,7 @@ $(function(){
 	$pdf->Cell( 80, 5, __("Activity by Location") );
 	$pdf->Ln();
 	
-	$headerTags = array( __("Cabinet Location"), __("Last Audit"), __("Times Audited"), __("Installation Date"), __("Days Since Last Audit") );
+	$headerTags = array( __("Cabinet Location"), __("Last Audit"), __("Times Audited"), __("installation Date"), __("Days Since Last Audit") );
 	$cellWidths = array( 40, 30, 30, 30, 60 );
 	
 	$fill = 0;
@@ -260,7 +260,7 @@ $(function(){
 		$sql="select a.Time as AuditDate, CONCAT(b.LastName, ', ', b.FirstName) as Auditor, c.Location, c.InstallationDate from fac_GenericLog a, fac_People b, fac_Cabinet c where a.Action=\"CertifyAudit\" and a.UserID=b.UserID and a.ObjectID=c.CabinetID and c.CabinetID=$tmpCab->CabinetID order by a.Time DESC limit 1;";
 
 		foreach($dbh->query($sql) as $resRow){
-			$pdf->Cell( $cellWidths[0], 6, $tmpCab->Location, $borders, 0, 'L', $fill );
+			$pdf->Cell( $cellWidths[0], 6, $tmpCab->Location, $borders, 0, 'C', $fill );
 			
 			$sql="SELECT COUNT(Time) AS Frequency FROM fac_GenericLog WHERE Action=\"CertifyAudit\" and ObjectID=$tmpCab->CabinetID;";
 			$frequency=$dbh->query($sql)->fetchColumn();
@@ -294,10 +294,10 @@ $(function(){
 			
 			$installDate = date( "M d, Y", strtotime( $resRow["InstallationDate"] ) );
 			
-			$pdf->Cell( $cellWidths[1], 6, $auditDate, $borders, 0, 'L', $fill );
-			$pdf->Cell( $cellWidths[2], 6, $frequency, $borders, 0, 'L', $fill );
-			$pdf->Cell( $cellWidths[3], 6, $installDate, $borders, 0, 'L', $fill );
-			$pdf->Cell( $cellWidths[4], 6, $period, $borders, 0, 'L', $fill );
+			$pdf->Cell( $cellWidths[1], 6, $auditDate, $borders, 0, 'C', $fill );
+			$pdf->Cell( $cellWidths[2], 6, $frequency, $borders, 0, 'C', $fill );
+			$pdf->Cell( $cellWidths[3], 6, $installDate, $borders, 0, 'C', $fill );
+			$pdf->Cell( $cellWidths[4], 6, $period, $borders, 0, 'C', $fill );
 		
 			$pdf->Ln();
 			

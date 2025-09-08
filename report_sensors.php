@@ -22,9 +22,9 @@ $tableheader="\t<thead>
 		<tr>
 			<th>".__("Data Center")."</th>
 			<th>".__("Location")."</th>
-			<th>".__("Device")."</th>
-			<th>".__("Temperature")."</th>
-			<th>".__("Humidity")."</th>
+			<th>".__("device")."</th>
+			<th>".__("temperature")."</th>
+			<th>".__("humidity")."</th>
 			<th>".__("Last Read")."</th>
 		</tr>
 	</thead>

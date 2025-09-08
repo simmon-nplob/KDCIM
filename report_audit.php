@@ -283,7 +283,7 @@ $(function(){
 	$pdf->Cell( 80, 5, __("Auditor Summary") );
 	$pdf->Ln();
 	
-	$headerTags = array( __("UserID"), __("UserName"), __("Count"), __("Last Audit") );
+	$headerTags = array( __("UserID"), __("UserName"), __("count"), __("Last Audit") );
 	$cellWidths = array( 20, 50, 20, 40 );
 
 	$fill = 0;
@@ -300,10 +300,10 @@ $(function(){
 		$res = $dbh->query( $sql );
 		$lastRow = $res->fetch();
 		
-		$pdf->Cell( $cellWidths[0], 6, $row["UserID"], 'LR', 0, 'L', $fill );
-		$pdf->Cell( $cellWidths[1], 6, $row["Name"], 'LR', 0, 'L', $fill );
-		$pdf->Cell( $cellWidths[2], 6, $row["TotalCabinets"], 'LR', 0, 'L', $fill );
-		$pdf->Cell( $cellWidths[3], 6, $lastRow["LastAudit"], 'LR', 0, 'L', $fill );
+		$pdf->Cell( $cellWidths[0], 6, $row["UserID"], 'LR', 0, 'C', $fill );
+		$pdf->Cell( $cellWidths[1], 6, $row["Name"], 'LR', 0, 'C', $fill );
+		$pdf->Cell( $cellWidths[2], 6, $row["TotalCabinets"], 'LR', 0, 'C', $fill );
+		$pdf->Cell( $cellWidths[3], 6, $lastRow["LastAudit"], 'LR', 0, 'C', $fill );
 		
 		$pdf->Ln();
 		
@@ -348,10 +348,10 @@ $(function(){
 		foreach($dbh->query($sql) as $resRow){		
 			if ( $showDate ) {
 				$pdf->Ln(4);
-				$pdf->Cell( $cellWidths[0], 6, $auditDate, 'TLR', 0, 'L', $fill );
+				$pdf->Cell( $cellWidths[0], 6, $auditDate, 'TLR', 0, 'C', $fill );
 				$borders = "TLR";
 			} else {
-				$pdf->Cell( $cellWidths[0], 6, "", 'LR', 0, 'L', $fill );
+				$pdf->Cell( $cellWidths[0], 6, "", 'LR', 0, 'C', $fill );
 				$borders = "LR";
 			}
 			
@@ -360,8 +360,8 @@ $(function(){
 			// Only show the date on the first row of consecutive audits
 			$showDate = false;
 			
-			$pdf->Cell( $cellWidths[1], 6, $resRow["Cabinet Location"], $borders, 0, 'L', $fill );
-			$pdf->Cell( $cellWidths[2], 6, $resRow["Auditor"], $borders, 0, 'L', $fill );
+			$pdf->Cell( $cellWidths[1], 6, $resRow["Cabinet Location"], $borders, 0, 'C', $fill );
+			$pdf->Cell( $cellWidths[2], 6, $resRow["Auditor"], $borders, 0, 'C', $fill );
 			$pdf->Cell( $cellWidths[3], 6, $resRow["Comments"], $borders, 0, 'L', $fill );
 		
 			$pdf->Ln();

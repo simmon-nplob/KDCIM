@@ -156,7 +156,7 @@ echo '<div class="main">
 echo '	</select></div>
 </div>
 <div>
-   <div><label for="location">',__("Location"),'</label></div>
+   <div><label for="location">',__("location"),'</label></div>
    <div><input type="text" name="location" id="location" value="',$bin->Location,'"></div>
 </div>';
 

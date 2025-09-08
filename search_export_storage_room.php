@@ -61,19 +61,19 @@
 
 		// Left these expanded in case we need to add or remove columns.  Otherwise I would have just collapsed entirely.
 		$body="<table id=\"export\" class=\"display\">\n\t<thead>\n\t\t<tr>\n
-			\t<th>".__("Storage Room")."</th>
+			\t<th>".__("storage room")."</th>
 			\t<th>".__("Position")."</th>
-			\t<th>".__("Height")."</th>
+			\t<th>".__("height")."</th>
 			\t<th>".__("Name")."</th>
 			\t<th>".__("Serial Number")."</th>
 			\t<th>".__("Asset Tag")."</th>
-      			\t<th>".__("Primary IP / Host Name")."</th>
-			\t<th>".__("Device Type")."</th>
-			\t<th>".__("Template")."</th>
-			\t<th>".__("Tags")."</th>
+      			\t<th>".__("primary IP / host name")."</th>
+			\t<th>".__("Device type")."</th>
+			\t<th>".__("template")."</th>
+			\t<th>".__("tags")."</th>
 			\t<th>".__("Owner")."</th>
 			\t<th>".__("Installation Date")."</th>
-			\t<th>".__("Warranty Expiration")."</th>
+			\t<th>".__("warranty expiration")."</th>
 			{$ca_headers}
 			</tr>\n\t</thead>\n\t<tbody>\n";
 
@@ -248,8 +248,8 @@
 echo '		<div class="main">
 			<label for="datacenterid">',__("Data Center:"),'</label>
 			<select name="datacenterid" id="datacenterid">
-				<option value="">',__("Select data center"),'</option>
-				<option value="0">',__("All Data Centers"),'</option>';
+				<option value="">',__("Select data Center"),'</option>
+				<option value="0">',__("all Data Centers"),'</option>';
 foreach($dcList as $dc){print "\t\t\t\t<option value=\"$dc->DataCenterID\">$dc->Name - Storage Room</option>\n";} ?>
 			</select>
 			<br><br>

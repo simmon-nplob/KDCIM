@@ -13,7 +13,7 @@
     <head>
       <meta http-equiv="X-UA-Compatible" content="IE=Edge">
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>openDCIM Vendor/Model Reporting</title>
+      <title>KDCIM Vendor/Model Reporting</title>
       <link rel="stylesheet" href="css/inventory.php" type="text/css">
       <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
       <script type="text/javascript" src="scripts/jquery.min.js"></script>
@@ -31,8 +31,8 @@
  ?>
     </div>
     <div class="main">
-    <h2>openDCIM</h2>
-    <h3>Vendor Model Report</h3>
+    <h2>KDCIM</h2>
+    <h3>제조사 모델 보고</h3>
     <form method="post">
     <div class="table">
     <div>

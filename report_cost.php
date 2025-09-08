@@ -466,7 +466,7 @@ class PDF_Diag extends PDF_Sector {
 		
 		$dc->DataCenterID = 0;
 
-		$headerTags = array( __("Device Name"), __("Serial Number"), __("Asset Tag"), __("DC Room"), __("Cabinet"), __("Position"), __("Rack Units"), __("Watts"), __("Rack Cost") );
+		$headerTags = array( __("Device Name"), __("Serial Number"), __("Asset Tag"), __("DC Room"), __("Cabinet"), __("Position"), __("Rack Units"), __("watts"), __("Rack Cost") );
 		$cellWidths = array( 50, 30, 20, 20, 15, 15, 15, 15, 15 );
 
 		for ( $col = 0; $col < count( $headerTags ); $col++ )

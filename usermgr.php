@@ -260,7 +260,7 @@ echo '<div class="main">
 echo '	</select>&nbsp;&nbsp;<span title="',__("This user is the primary contact for this many devices"),'" id="PrimaryContact"></span></div>
 </div>
 <div>
-   <div><label for="UserID">',__("UserID"),'</label></div>
+   <div><label for="UserID">',__("Userid"),'</label></div>
    <div><input type="text" class="validate[required,minSize[1],maxSize[50]]" name="UserID" id="UserID" value="',$userRights->UserID,'"></div>
 </div>
 <div>
