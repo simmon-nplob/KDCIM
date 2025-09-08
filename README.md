@@ -1,6 +1,8 @@
     KDCIM - openDCIM
     -----------
 
+    * Sep. 8, 2025 - KDCIM 한글화 작업 완료 / * 초기 작업 * Aug. 23, 2025
+
     해당 프로젝트는 openDCIM의 한글화 적용과 사용을 목적으로 합니다.
 
     This project aims to apply and use Korean language version of openDCIM.
