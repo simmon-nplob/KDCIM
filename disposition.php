@@ -72,7 +72,7 @@ echo '<div class="main">
 <h3>',$status,'</h3>
 <div class="center"><div>
 <form id="dispositionform" method="POST">
-<h2>'.__("Disposal Mechanism").'</h2>
+<h2>'.__("disposal mechanism").'</h2>
 <div class="table">
 <div>
    <div><label for="dispositionid">',__("Disposition ID"),'</label></div>

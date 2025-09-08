@@ -210,7 +210,7 @@
           $st->execute( array( ":Name" => $val ));
           if ( ! $st->fetch()) {
             $valid = false;
-            $tmpCon .= "<li>" . __("Data Center") . ": $val";
+            $tmpCon .= "<li>" . __("data center") . ": $val";
           }
         }
 
@@ -220,7 +220,7 @@
           $st->execute( array( ":Location"=>$row["Cabinet"], ":DataCenter"=>$row["DataCenterID"] ));
           if ( ! $row = $st->fetch()) {
             $valid = false;
-            $tmpCon .= "<li>" . __("Cabinet") . ": " . $row["DataCenterID"] . " - " . $row["Cabinet"];
+            $tmpCon .= "<li>" . __("cabinet") . ": " . $row["DataCenterID"] . " - " . $row["Cabinet"];
           }
         }
 
@@ -253,7 +253,7 @@
             $st->execute( array( ":Name"=>$val ));
             if ( ! $st->fetch() ) {
               $valid = false;
-              $tmpCon .= "<li>" . __("Department") . ": " . $val;
+              $tmpCon .= "<li>" . __("department") . ": " . $val;
             }
           }
         }
@@ -266,7 +266,7 @@
               $st->execute( array( ":Contact" => $val ));
               if ( ! $st->fetch()) {
                 $valid = false;
-                $tmpCon .= "<li>" . __("Primary Contact") . ":" . $val;
+                $tmpCon .= "<li>" . __("primary contact") . ":" . $val;
               }
             }
           }

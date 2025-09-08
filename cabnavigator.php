@@ -46,9 +46,9 @@ function renderCabinetProps($cab, $audit, $AuditorName){
 	$AuditorName=($AuditorName!='')?"<br>$AuditorName":"";
 
 	$renderedHTML="\t\t<table id=\"cabprop\">
-	\t\t<tr><td>".__("Last Audit").":</td><td id=\"lastaudit\">$audit->AuditStamp$AuditorName</td></tr>
+	\t\t<tr><td>".__("last audit").":</td><td id=\"lastaudit\">$audit->AuditStamp$AuditorName</td></tr>
 	\t\t<tr><td>".__("Model").":</td><td>$cab->Model</td></tr>
-	\t\t<tr><td>".__("Data Center").":</td><td>$tmpDC->Name</td></tr>
+	\t\t<tr><td>".__("data center").":</td><td>$tmpDC->Name</td></tr>
 	\t\t<tr><td>".__("Install Date").":</td><td>$cab->InstallationDate</td></tr>\n";
 
 	if($cab->ZoneID){

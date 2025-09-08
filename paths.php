@@ -218,7 +218,7 @@
 					$cab=new Cabinet();
 					$cab->CabinetID=$devList[sizeof($devList)]->Cabinet;
 					$cab->GetCabinet();
-					$path.=__("Cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
+					$path.=__("cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
 					$path.="</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>U:{$devList[sizeof($devList)]->Position}</td>\n";
 					
 					
@@ -293,7 +293,7 @@
 					$cab=new Cabinet();
 					$cab->CabinetID=$devList[sizeof($devList)]->Cabinet;
 					$cab->GetCabinet();
-					$path.=__("Cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
+					$path.=__("cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
 					$path.="</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>U:{$devList[sizeof($devList)]->Position}</td>\n";
 					
 					//Lineage
@@ -377,7 +377,7 @@
 						$cab=new Cabinet();
 						$cab->CabinetID=$devList[sizeof($devList)]->Cabinet;
 						$cab->GetCabinet();
-						$path.=__("Cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
+						$path.=__("cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
 						$path.="</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>U:{$devList[sizeof($devList)]->Position}</td>\n";
 						
 						//lineage
@@ -602,7 +602,7 @@ echo '<div class="main">
 		<form method="POST">
 <div class="table">
 	<div>
-		<div><label for="dc-rear">',__("Data Center"),'</label></div>
+		<div><label for="dc-rear">',__("data center"),'</label></div>
 		<div>'.builddclist('dc-rear').'</div>
 	</div>
 <br>

@@ -243,7 +243,7 @@ echo '<div class="main">
 <form id="rackform" method="POST">
 <div class="table">
 <div>
-   <div>',__("Cabinet"),'</div>
+   <div>',__("cabinet"),'</div>
    <div><select name="cabinetid" id="cabinetid">
    <option value=0>',__("New Cabinet"),'</option>';
 
@@ -255,7 +255,7 @@ echo '<div class="main">
 echo '   </select></div>
 </div>
 <div>
-   <div>',__("Data Center"),'</div>
+   <div>',__("data center"),'</div>
    <div>
 		<select name="datacenterid" id="datacenterid">
 ';
@@ -269,7 +269,7 @@ echo '		</select>
 	</div>
 </div>
 <div>
-   <div>',__("Location"),'</div>
+   <div>',__("location"),'</div>
    <div><input type="text" class="validate[required,minSize[1],maxSize[20]]" name="location" size=10 maxlength=20 value="',$cab->Location,'"></div>
 </div>
 <div>
@@ -292,7 +292,7 @@ echo '  </select>
    <div>',$cab->GetZoneSelectList(),'</div>
 </div>
 <div>
-   <div>',__("Cabinet Row"),'</div>
+   <div>',__("cabinet row"),'</div>
    <div>',$cab->GetCabRowSelectList(),'</div>
 </div>
 <div>

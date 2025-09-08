@@ -173,7 +173,7 @@
 <form method="POST">
 <div class="table centermargin">
 <div>
-   <div>',__("Department"),'</div>
+   <div>',__("department"),'</div>
    <div><input type="hidden" name="action" value="query"><select id="deptid" name="deptid">
    <option value=0>',__("New Department"),'</option>';
 
@@ -189,7 +189,7 @@
    <div><input type="text" class="validate[required]" size="50" name="name" id="deptname" maxlength="80" value="',$dept->Name,'"></div>
 </div>
 <div>
-   <div><label for="deptsponsor">',__("Executive Sponsor"),'</label></div>
+   <div><label for="deptsponsor">',__("executive sponsor"),'</label></div>
    <div><input type="text" size="50" name="execsponsor" id="deptsponsor" maxlength="80" value="',$dept->ExecSponsor,'"></div>
 </div>
 <div>

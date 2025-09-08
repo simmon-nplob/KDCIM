@@ -105,7 +105,7 @@ echo '<div class="main">
 	<div>',sprintf("%3d",$dcStats["Available"]),'</div>
   </div>
   <div>
-	<div>',__("Percentage"),'</div>
+	<div>',__("percentage"),'</div>
 	<div>',(($dcStats["TotalU"])?sprintf("%3.1f%%",$dcStats["Infrastructure"]/$dcStats["TotalU"]*100):"0"),'</div>
 	<div>',(($dcStats["TotalU"])?sprintf("%3.1f%%",$dcStats["Occupied"]/$dcStats["TotalU"]*100):"0"),'</div>
 	<div>',(($dcStats["TotalU"])?sprintf("%3.1f%%",$dcStats["Allocated"]/$dcStats["TotalU"]*100):"0"),'</div>

@@ -78,7 +78,7 @@ echo '<div class="main">
 	<div align="right">',sprintf("%s",number_format($cStats["Available"])),'</div>
   </div>
   <div>
-	<div>',__("Percentage"),'</div>
+	<div>',__("percentage"),'</div>
 	<div align="right">',(($cStats["TotalU"])?sprintf("%3.1f%%",$cStats["Infrastructure"]/$cStats["TotalU"]*100):"0"),'</div>
 	<div align="right">',(($cStats["TotalU"])?sprintf("%3.1f%%",$cStats["Occupied"]/$cStats["TotalU"]*100):"0"),'</div>
 	<div align="right">',(($cStats["TotalU"])?sprintf("%3.1f%%",$cStats["Allocated"]/$cStats["TotalU"]*100):"0"),'</div>

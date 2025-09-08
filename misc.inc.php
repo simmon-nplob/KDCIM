@@ -1142,7 +1142,7 @@ function BuildCabinet($cabid,$face="front"){
 			$cab->Location="$cab->Location (".__("Rear").")";
 			break;
 		case "side":
-			$cab->Location="$cab->Location (".__("Side").")";
+			$cab->Location="$cab->Location (".__("side").")";
 			break;
 		default:
 			// Leave the location alone

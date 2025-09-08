@@ -314,7 +314,7 @@ echo '
 <ul id="options" class="hide"> 
 	<li class="ui-state-disabled">',__("Set the air intake direction"),'</li>
 	<li>----</li>
-	<li><a>',__("Cabinet"),'</a>
+	<li><a>',__("cabinet"),'</a>
 		<ul data-context="cabinet">
 			<li><a href="#Top">',__("Top"),'</a></li>
 			<li><a href="#Right">',__("Right"),'</a></li>

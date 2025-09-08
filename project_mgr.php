@@ -135,7 +135,7 @@
 <form method="POST">
 <div class="table centermargin">
 <div>
-   <div>',__("Project"),'</div>
+   <div>',__("project"),'</div>
    <div><input type="hidden" name="action" value="query"><select id="projectid" name="projectid">
    <option value=0>',__("New Project"),'</option>';
 
@@ -147,7 +147,7 @@
 	echo '	</select></div>
 </div>
 <div>
-   <div><label for="projectname">',__("Project Name"),'</label></div>
+   <div><label for="projectname">',__("project Name"),'</label></div>
    <div><input type="text" class="validate[required]" size="50" name="projectname" id="projectname" maxlength="80" value="',$project->ProjectName,'"></div>
 </div>
 <div>

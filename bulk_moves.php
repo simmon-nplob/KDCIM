@@ -227,7 +227,7 @@
 
           if ( $cabRow["TotalMatches"] != 1 ) {
             $rowError = true;
-            $tmpCon .= "<li>" . __("Cabinet") . ": " . $row["DataCenterID"] . " - " . $row["Cabinet"];
+            $tmpCon .= "<li>" . __("cabinet") . ": " . $row["DataCenterID"] . " - " . $row["Cabinet"];
           } else {
             $CabinetID = $cabRow["CabinetID"];
           }

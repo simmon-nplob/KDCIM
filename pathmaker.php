@@ -224,7 +224,7 @@
 				$cab=new Cabinet();
 				$cab->CabinetID=$devList[sizeof($devList)]->Cabinet;
 				$cab->GetCabinet();
-				$path.=__("Cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
+				$path.=__("cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
 				$path.="</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>U:{$devList[sizeof($devList)]->Position}</td>\n";
 				
 				//Lineage
@@ -301,7 +301,7 @@
 					$cab=new Cabinet();
 					$cab->CabinetID=$devList[sizeof($devList)]->Cabinet;
 					$cab->GetCabinet();
-					$path.=__("Cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
+					$path.=__("cabinet").": <a href=\"cabnavigator.php?cabinetid=$cab->CabinetID\">$cab->Location</a>";
 					$path.="</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td>U:{$devList[sizeof($devList)]->Position}</td>\n";
 					
 					//lineage
@@ -467,7 +467,7 @@
 							devr.insertAfter($(e.target).parent('div').parent('div'));
 						});
 					});
-					cabl.text('<?php echo __("Cabinet");?>');
+					cabl.text('<?php echo __("cabinet");?>');
 					cabs.html(s.change());
 					cabr.insertAfter($(e.target).parent('div').parent('div'));
 				});
@@ -493,7 +493,7 @@ echo '<div class="main">
 	<legend>'.__("Initial device").'</legend>
 	<div class="table">
 		<div>
-		  	<div><label for="dc-front">',__("Data Center"),'</label></div>
+		  	<div><label for="dc-front">',__("data center"),'</label></div>
 			<div>'.builddclist('dc-front').'</div>
 		</div>
 	</div>
@@ -505,7 +505,7 @@ echo '<div class="main">
 	<legend>'.__("Final device").'</legend>
 	<div class="table">
 		<div>
-		  	<div><label for="dc-rear">',__("Data Center"),'</label></div>
+		  	<div><label for="dc-rear">',__("data center"),'</label></div>
 			<div>'.builddclist('dc-rear').'</div>
 		</div>
 	</div>

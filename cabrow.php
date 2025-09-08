@@ -163,7 +163,7 @@ echo '	</select></div>
    <div><input type="text" size="50" name="name" id="name" value="',$cabrow->Name,'"></div>
 </div>
 <div>
-   <div><label for="datacenterid">',__("Data Center"),'</label></div>
+   <div><label for="datacenterid">',__("data center"),'</label></div>
    <div><select name="datacenterid" id="datacenterid">
 		<option value=0></option>';
 

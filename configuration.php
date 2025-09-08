@@ -2080,7 +2080,7 @@ echo '<div class="main">
 					<div><label for="AssignCabinetLabels">',__("Which Cabinet Label?"),'</label></div>
 					<div><select id="AssignCabinetLabels" name="AssignCabinetLabels" defaultvalue="',$config->defaults["AssignCabinetLabels"],'" data="',$config->ParameterArray["AssignCabinetLabels"],'">
 
-							<option value="Location">',__("Location"),'</option>
+							<option value="Location">',__("location"),'</option>
 							<option value="OwnerName">',__("Owner Name"),'</option>
 							<option value="KeyLockInformation">',__("Key Lock Information"),'</option>
 							<option value="ModelNo">',__("Model No"),'</option> 
@@ -2218,7 +2218,7 @@ echo '<div class="main">
 			</div>
 			<div class="table">
 				<div>
-					<div><label for="annualCostPerUYear">',__("Annual Cost Per Rack Unit (Year)"),'</label></div>
+					<div><label for="annualCostPerUYear">',__("Annual Cost per rack Unit (Year)"),'</label></div>
 					<div><input type="text" defaultvalue="',$config->defaults["annualCostPerUYear"],'" name="annualCostPerUYear" value="',$config->ParameterArray["annualCostPerUYear"],'"></div>
 				</div>
 				<div>
@@ -2431,7 +2431,7 @@ echo '<div class="main">
 			<div class="table" id="customattrs">
 				<div>
 					<div></div>
-					<div class="customattrsheader">',__("Label"),'</div>
+					<div class="customattrsheader">',__("label"),'</div>
 					<div class="customattrsheader">',__("Type"),'</div>
 					<div class="customattrsheader">',__("Required"),'</div>
 					<div class="customattrsheader">',__("Apply to<br>All Devices"),'</div>
@@ -2473,16 +2473,20 @@ echo '<div class="main">
 					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrLastName"],'" name="AttrLastName" value="',$config->ParameterArray["AttrLastName"],'"></div>
 				</div>
 				<div>
-					<div><label for="AttrEmail">',__("Email"),'</label></div>
+					<div><label for="AttrEmail">',__("email"),'</label></div>
 					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrEmail"],'" name="AttrEmail" value="',$config->ParameterArray["AttrEmail"],'"></div>
 				</div>
 				<div>
-					<div><label for="AttrPhone1">',__("Phone1"),'</label></div>
+					<div><label for="AttrPhone1">',__("phone1"),'</label></div>
 					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrPhone1"],'" name="AttrPhone1" value="',$config->ParameterArray["AttrPhone1"],'"></div>
 				</div>
 				<div>
-					<div><label for="AttrPhone2">',__("Phone2"),'</label></div>
+					<div><label for="AttrPhone2">',__("phone2"),'</label></div>
 					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrPhone2"],'" name="AttrPhone2" value="',$config->ParameterArray["AttrPhone2"],'"></div>
+				</div>
+				<div>
+					<div><label for="AttrPhone3">',__("phone3"),'</label></div>
+					<div><input type="text" size="40" defaultvalue="',$config->defaults["AttrPhone3"],'" name="AttrPhone2" value="',$config->ParameterArray["AttrPhone3"],'"></div>
 				</div>
 				<div>
 					<div><label for="AttrCountry">',__("Country"),'</label></div>

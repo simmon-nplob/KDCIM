@@ -49,13 +49,13 @@
 			$sheet->getActiveSheet()->SetCellValue('B2', $mfg->Name );
 			$sheet->getActiveSheet()->SetCellValue('A3',__("Model"));
 			$sheet->getActiveSheet()->SetCellValue('B3', $devTmpl->Model );
-			$sheet->getActiveSheet()->SetCellValue('A4',__("Serial Number"));
+			$sheet->getActiveSheet()->SetCellValue('A4',__("serial number"));
 			$sheet->getActiveSheet()->SetCellValue('B4', $dev->SerialNo );
-			$sheet->getActiveSheet()->SetCellValue('A5',__("Asset Tag"));
+			$sheet->getActiveSheet()->SetCellValue('A5',__("asset tag"));
 			$sheet->getActiveSheet()->SetCellValue('B5', $dev->AssetTag );	
 			$sheet->getActiveSheet()->SetCellValue('A6',__("Target Cabinet"));
 			$sheet->getActiveSheet()->SetCellValue('B6', $cab->Location );		
-			$sheet->getActiveSheet()->SetCellValue('A7',__("Position"));
+			$sheet->getActiveSheet()->SetCellValue('A7',__("position"));
 			$sheet->getActiveSheet()->SetCellValue('B7', $dev->Position );
 
 			// Excel limits sheet titles to 31 characters or less

@@ -931,7 +931,7 @@
 		$Hyper->DeviceID=$DeviceID;
 		$vmList=$Hyper->GetDeviceInventory();
 
-		print "\n<div class=\"table border\"><div><div>".__("VM Name")."</div><div>".__("Status")."</div><div>".__("Owner")."</div><div>".__("Primary Contact")."</div><div>".__("Last Updated")."</div></div>\n";
+		print "\n<div class=\"table border\"><div><div>".__("VM Name")."</div><div>".__("Status")."</div><div>".__("owner")."</div><div>".__("primary contact")."</div><div>".__("Last Updated")."</div></div>\n";
 		foreach($vmList as $vmRow){
 			$onOff=(preg_match('/off/i',$vmRow->vmState))?'off':'on';
 			$Dept=new Department();
@@ -1823,16 +1823,16 @@ echo '			</select>
 
 		</div>
 		<div>
-		   <div><label for="Label">'.__("Label").'</label></div>
+		   <div><label for="Label">'.__("label").'</label></div>
 		   <div><input type="text" class="validate[required,minSize[3],maxSize[50]]" name="Label" id="Label" size="40" value="'.$dev->Label.'"></div>
 		</div>
 		<div>
-		   <div><label for="SerialNo">'.__("Serial Number").'</label></div>
+		   <div><label for="SerialNo">'.__("serial number").'</label></div>
 		   <div><input type="text" name="SerialNo" id="SerialNo" size="40" value="'.$dev->SerialNo.'">
 		   <button class="hide" type="button" onclick="getScan(\'SerialNo\')">',__("Scan Barcode"),'</button></div>
 		</div>
 		<div>
-		   <div><label for="AssetTag">'.__("Asset Tag").'</label></div>
+		   <div><label for="AssetTag">'.__("asset tag").'</label></div>
 		   <div><input type="text" name="AssetTag" id="AssetTag" size="20" value="'.$dev->AssetTag.'">
 		   <button class="hide" type="button" onclick="getScan(\'AssetTag\')">',__("Scan Barcode"),'</button></div>
 		</div>
@@ -1910,7 +1910,7 @@ echo '				</select></div>
 		   </fieldset></div>
 		</div>
 		<div>
-		   <div><label for="PrimaryContact">',__("Primary Contact"),'</label></div>
+		   <div><label for="PrimaryContact">',__("primary contact"),'</label></div>
 		   <div><select name="PrimaryContact" id="PrimaryContact">
 				<option value=0>',__("Unassigned"),'</option>';
 
@@ -1952,7 +1952,7 @@ echo '
 	<legend>',__("Physical Infrastructure"),'</legend>
 	<div class="table">
 		<div>
-			<div><label for="CabinetID">',__("Cabinet"),'</label></div>';
+			<div><label for="CabinetID">',__("cabinet"),'</label></div>';
 
 		if($dev->ParentDevice==0){
 			print "\t\t\t<div>".$cab->GetCabinetSelectList()."</div>\n";
@@ -1994,7 +1994,7 @@ echo '			</select>
 		   <div><input type="number" class="required,validate[custom[onlyNumberSp]]" name="Height" id="Height" value="',$dev->Height,'"></div>
 		</div>
 		<div>
-		   <div><label for="Position">',__("Position"),'</label></div>
+		   <div><label for="Position">',__("position"),'</label></div>
 		   <div><input type="number" class="required,validate[custom[onlyNumberSp],min[0],max[',$cab->CabinetHeight,']]" name="Position" id="Position" value="',$dev->Position,'"></div>
 		</div>
 		';
@@ -2332,7 +2332,7 @@ echo '	</div>
 		<div>
 			<div>',__("Slot #"),'</div>
 			<div>',__("Height"),'</div>
-			<div>',__("Device Name"),'</div>
+			<div>',__("Device name"),'</div>
 			<div>',__("Device Type"),'</div>
 		</div>';
 
