@@ -1,6 +1,7 @@
     KDCIM - openDCIM
     -----------
 
+    * Sep. 15, 2025 - OS 표기정보를 추가하였습니다.
     * Sep. 8, 2025 - KDCIM 한글화 작업 완료 / * 초기 작업 * Aug. 23, 2025
 
     해당 프로젝트는 openDCIM의 한글화 적용과 사용을 목적으로 합니다.
@@ -8,11 +9,9 @@
     This project aims to apply and use Korean language version of openDCIM.
 
 
-
     제공된 odt 문서 파일을 통해 프로그램 설치와 환경 구성을 진행하세요.
 
     Proceed with program installation and environment configuration using the provided odt document file.
-
 
 
     이 문서는 페도라42 와 레헬 9/10 계열 설치 환경에서 시험되었습니다.
