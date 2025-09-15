@@ -12,7 +12,10 @@ if ($osrelease) {
     }
 
     if (isset($info['ID']) && isset($info['VERSION_ID'])) {
-        echo strtolower($info['ID']) . $info['VERSION_ID'];
+	echo 'OS 정보: <span style="color: red; font-size: 20px;">' 
+	     . strtolower($info['ID']) 
+	     . $info['VERSION_ID'] 
+	     . '</span>';    
     } elseif (isset($info['PRETTY_NAME'])) {
         echo $info['PRETTY_NAME'];
     } else {
