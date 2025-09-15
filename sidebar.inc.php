@@ -79,8 +79,6 @@
   <script type="text/javascript" src="scripts/konami.js"></script> 
 	<hr>
 <?php
-
-
 	function buildmenu($menu){
 		$level='';
 		foreach($menu as $key => $item){
@@ -119,9 +117,10 @@
 		}
 	echo '		</select>
 	</div>
-
 	<div id="nav_placeholder"></div>';
-	// Moved the navigation menu to an ajax load item	
+	// Moved the navigation menu to an ajax load item
+	echo "<br>";	
+	require_once('osinfo.php');
 ?>
 	</div>
 	<div><p>
