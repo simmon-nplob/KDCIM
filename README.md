@@ -14,7 +14,7 @@
     Proceed with program installation and environment configuration using the provided odt document file.
 
 
-    이 문서는 페도라42 와 레헬 9/10 계열 설치 환경에서 시험되었습니다.
+    이 문서는 페도라 44/43/42 와 레헬 9/10 계열 설치 환경에서 시험되었습니다.
 
     The documentation has been tested on Fedora 42 and RedHat 9/10 series installation environments.
 
